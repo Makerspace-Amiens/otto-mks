@@ -758,7 +758,7 @@
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.77 360)
+			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(uuid "9d415c1e-da99-4320-9046-5ca9ee2339e3")
 			(effects
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 0 10.389999 360)
+			(at 0 10.389999 0)
 			(layer "F.Fab")
 			(uuid "3c2aa63f-3c83-4257-8f29-c008f9b91af9")
 			(effects
@@ -1028,7 +1028,7 @@
 			(pintype "passive")
 			(uuid "dff7b90c-e0e5-4726-8f13-8783f0ca8dcb")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2419,7 +2419,7 @@
 			(uuid "6110d71e-9e5c-4453-84a0-3deb91c6a0a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "bab169c6-fa09-4292-9571-0968b2aa3940")
 			(effects
@@ -2473,7 +2473,7 @@
 			(pintype "passive")
 			(uuid "cf971b69-5a1c-4719-a4d5-1fe5a0c3527c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4486,7 +4486,7 @@
 			(pintype "passive")
 			(uuid "e73e1a29-c9aa-44a1-8962-90cd68857ea6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.80mm.wrl"
+		(model "${KIPRJMOD}/packages3D/CP_Radial_D8.0mm_P3.80mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5721,29 +5721,18 @@
 			(solder_mask_margin 0.102)
 			(uuid "0624cd7a-dde9-4b02-99b7-5f9f5bf04eef")
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/TMC2208_SILENTSTEPSTICK/TMC2208_SILENTSTEPSTICK.step"
+		(model "${KIPRJMOD}/packages3D/Dissipateur-DissipateurTMC2208.step"
 			(offset
-				(xyz 0 0 7)
+				(xyz 0 2 11.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 90)
 			)
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/PinSocket_1x08_P2.54mm_Vertical.step"
-			(offset
-				(xyz -6.35 8.9 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/PinSocket_1x08_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 6.35 8.9 0)
 			)
@@ -5754,15 +5743,26 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/TMC2208_SILENTSTEPSTICK/Dissipateur-DissipateurTMC2208.step"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 2 11.3)
+				(xyz -6.35 8.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/TMC2208_SILENTSTEPSTICK.step"
+			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -7770,7 +7770,7 @@
 			(pintype "passive")
 			(uuid "c06a097e-ba6c-4f7b-8a42-039eeea3fa98")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.80mm.wrl"
+		(model "${KIPRJMOD}/packages3D/CP_Radial_D8.0mm_P3.80mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8319,29 +8319,18 @@
 			(solder_mask_margin 0.102)
 			(uuid "43a3d23a-36af-4a67-9af1-d2f61ad87acc")
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/TMC2208_SILENTSTEPSTICK/TMC2208_SILENTSTEPSTICK.step"
+		(model "${KIPRJMOD}/packages3D/Dissipateur-DissipateurTMC2208.step"
 			(offset
-				(xyz 0 0 7)
+				(xyz 0 2 11.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 90)
 			)
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/PinSocket_1x08_P2.54mm_Vertical.step"
-			(offset
-				(xyz -6.35 8.9 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/PinSocket_1x08_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 6.35 8.9 0)
 			)
@@ -8352,15 +8341,26 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/barbatronic/Documents/GitHub/Karibous-2024-PAMI/ECAD/Librairies/TMC2208_SILENTSTEPSTICK/Dissipateur-DissipateurTMC2208.step"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 2 11.3)
+				(xyz -6.35 8.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/TMC2208_SILENTSTEPSTICK.step"
+			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -9742,7 +9742,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Libraries/Seeed Studio XIAO-ESP32-C3.step"
+		(model "${KIPRJMOD}/packages3D/Seeed Studio XIAO-ESP32-C3.step"
 			(offset
 				(xyz 15 8.75 0)
 			)
@@ -9977,7 +9977,7 @@
 			(uuid "a948cb6c-3c07-402a-9b85-d738bd6af28e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "f2c10c2c-a898-4506-8d91-9c280fd8e603")
 			(effects
@@ -10031,7 +10031,7 @@
 			(pintype "passive")
 			(uuid "75168f40-47a7-401a-bb38-a0a29e97799b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11844,7 +11844,7 @@
 			(pintype "passive")
 			(uuid "b6e22acc-642a-489f-9e82-7b8fcdf31489")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.wrl"
+		(model "${KIPRJMOD}/packages3D/Buzzer_12x9.5RM7.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
