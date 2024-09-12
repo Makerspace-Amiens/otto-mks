@@ -1074,6 +1074,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3793e66f-7688-44c3-b21c-ea4a2115bdb1")
 		(at 126.2 98 90)
