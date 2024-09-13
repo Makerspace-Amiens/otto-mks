@@ -3890,126 +3890,6 @@
 				)
 			)
 		)
-		(symbol "power:+5VP"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VP"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VP\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VP_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VP_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers hide)
@@ -4234,12 +4114,6 @@
 		(uuid "1085347c-0b76-4998-bbce-d4337bb196d2")
 	)
 	(junction
-		(at 111.76 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "137b6d45-838b-45f8-bb2e-483629058936")
-	)
-	(junction
 		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4255,7 +4129,13 @@
 		(at 146.05 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "734eec5b-be11-4278-a6ae-93f83e6a1ad6")
+		(uuid "562c887a-a05a-48ef-8b9d-523bf3efac86")
+	)
+	(junction
+		(at 111.76 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ffec729-2a03-411c-8613-e9c04b3dc931")
 	)
 	(junction
 		(at 82.55 142.24)
@@ -4340,16 +4220,6 @@
 			(type default)
 		)
 		(uuid "0de7fdde-b2f0-419c-a36f-992b2b36aab1")
-	)
-	(wire
-		(pts
-			(xy 146.05 54.61) (xy 147.32 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12323aed-822a-4aa7-96b3-e7cab158bcbd")
 	)
 	(wire
 		(pts
@@ -4443,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 54.61) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bc1f9c-1a9c-44ac-9bf1-b5aab61e28a5")
+	)
+	(wire
+		(pts
 			(xy 147.32 142.24) (xy 147.32 144.78)
 		)
 		(stroke
@@ -4480,6 +4360,16 @@
 			(type default)
 		)
 		(uuid "5b06aaf3-2fcd-4672-9829-a4122a173414")
+	)
+	(wire
+		(pts
+			(xy 143.51 54.61) (xy 146.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8119f6f8-443e-41d2-8256-82377af3d835")
 	)
 	(wire
 		(pts
@@ -4583,16 +4473,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 146.05 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd68c934-5b40-477b-a9a3-5ca02f8175db")
-	)
-	(wire
-		(pts
 			(xy 107.95 168.91) (xy 111.76 168.91)
 		)
 		(stroke
@@ -4650,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "e9787606-b4f0-4bdf-a19b-8b6d70595aee")
+	)
+	(wire
+		(pts
+			(xy 146.05 52.07) (xy 146.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcaaf88-f5d7-4fbc-9f27-9301ad181cc7")
 	)
 	(text "Put near the \ntwo drivers\nTMC2208"
 		(exclude_from_sim no)
@@ -4772,7 +4662,7 @@
 			)
 		)
 	)
-	(global_label "Servo-4"
+	(global_label "Servo-3"
 		(shape input)
 		(at 156.21 134.62 180)
 		(fields_autoplaced yes)
@@ -4794,7 +4684,7 @@
 			)
 		)
 	)
-	(global_label "Servo-1"
+	(global_label "Servo-2"
 		(shape input)
 		(at 91.44 134.62 180)
 		(fields_autoplaced yes)
@@ -4970,7 +4860,7 @@
 			)
 		)
 	)
-	(global_label "Servo-2"
+	(global_label "Servo-1"
 		(shape input)
 		(at 91.44 137.16 180)
 		(fields_autoplaced yes)
@@ -5190,7 +5080,7 @@
 			)
 		)
 	)
-	(global_label "Servo-3"
+	(global_label "Servo-4"
 		(shape input)
 		(at 156.21 137.16 180)
 		(fields_autoplaced yes)
@@ -6934,7 +6824,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 146.05 54.61 0)
+		(at 146.05 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6943,7 +6833,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f548084-6816-44f9-baed-90b4d16e80fa")
 		(property "Reference" "#PWR02"
-			(at 146.05 58.42 0)
+			(at 146.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6842,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 146.05 49.53 0)
+			(at 146.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +6850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 54.61 0)
+			(at 146.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +6859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 54.61 0)
+			(at 146.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +6868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 146.05 54.61 0)
+			(at 146.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,72 +6883,6 @@
 			(project "Otto-ESP32-XIAO"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 111.76 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5189b0a3-c568-407a-b41e-0a07feb830f5")
-		(property "Reference" "#PWR035"
-			(at 111.76 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 111.76 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86d0c6f0-31f0-430f-b7fc-5bb6613dec47")
-		)
-		(instances
-			(project "Otto-ESP32-XIAO"
-				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10036,6 +9860,72 @@
 			(project ""
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 111.76 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0f49cd-0003-4714-8701-5ef84aa9e866")
+		(property "Reference" "#PWR041"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac4b18b8-33ef-4a4d-9f25-d4e21b443da4")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
