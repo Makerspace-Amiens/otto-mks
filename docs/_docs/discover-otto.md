@@ -10,7 +10,7 @@ type: otto
 
 title: Découvrez Otto !
 subtitle: Comment le construire, ses possibilités, ...
-description: Cette page détaille les différentes étpaes poru la réalisation du robot Otto
+description: Cette page détaille les différentes étapes pour la réalisation du robot Otto
 
 time: 1
 difficulty: 1
