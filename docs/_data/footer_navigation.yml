@@ -1,6 +1,6 @@
-- name: Blog
-  link: /blog/
-- name: About
-  link: /about/
-- name: Privacy Policy
-  link: /privacy-policy/
+- name: Informations
+  link: /pages/informations
+- name: MakerSpace Amiens
+  link: https://makerspace-amiens.fr
+- name: Sources du projet
+  link: https://github.com/Makerspace-Amiens/otto-mks
