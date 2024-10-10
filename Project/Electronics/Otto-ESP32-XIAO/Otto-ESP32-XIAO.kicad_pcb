@@ -3575,6 +3575,261 @@
 			)
 		)
 	)
+	(footprint "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+		(layer "F.Cu")
+		(uuid "4b3ec354-e95e-4397-9abc-6ffafd1f2769")
+		(at 163.608 50.55)
+		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
+		(tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
+		(property "Reference" "C3"
+			(at 2.5 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "f89ac347-dc37-4aa6-b2c8-62dbf4a30749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "371eef2d-6253-4ff4-87bf-7a46f32022c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e9f304c-b2cd-4da4-b3cd-04797ae7e4eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af4a0eee-6b83-44fd-a983-ee19bbd7e92c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed90699c-85dc-4ea6-8cf7-fcef3211c6c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/9246697f-1ccd-4167-9933-03ace0185b0e")
+		(sheetname "Racine")
+		(sheetfile "Otto-ESP32-XIAO.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.62 -1.37)
+			(end -0.62 -0.925)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c765631-0335-45ac-ac62-034d398512f6")
+		)
+		(fp_line
+			(start -0.62 -1.37)
+			(end 5.62 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "53fe838e-6def-48da-83a1-214c4d2c0fc5")
+		)
+		(fp_line
+			(start -0.62 0.925)
+			(end -0.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41e15bfe-a419-4ddf-9fc8-9dcd63834504")
+		)
+		(fp_line
+			(start -0.62 1.37)
+			(end 5.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ecab50b-8c7b-440f-b24b-a5ae424e7a89")
+		)
+		(fp_line
+			(start 5.62 -1.37)
+			(end 5.62 -0.925)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "987615a3-1d89-440c-90a8-5d1ac73405ba")
+		)
+		(fp_line
+			(start 5.62 0.925)
+			(end 5.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b31c996-a93e-4cb6-ac78-624303b5f680")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a5e5842-5f19-4cbd-9e95-8bde8835f5dc")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end 6.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e01a2151-baa3-4353-bce9-088a7602d098")
+		)
+		(fp_line
+			(start 6.05 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b2263b49-e0c6-41d8-8e7d-0dd8d54b4a88")
+		)
+		(fp_line
+			(start 6.05 1.5)
+			(end 6.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5be2ace9-6d22-4bc6-a61d-74aff4167e00")
+		)
+		(fp_line
+			(start -0.5 -1.25)
+			(end -0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7bfa10a9-4cf5-4925-a569-994e45565938")
+		)
+		(fp_line
+			(start -0.5 1.25)
+			(end 5.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d07c99a-5740-4b97-8166-555203cc9c88")
+		)
+		(fp_line
+			(start 5.5 -1.25)
+			(end -0.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca6c9c26-5ad7-4632-aa52-30bf61ceaff4")
+		)
+		(fp_line
+			(start 5.5 1.25)
+			(end 5.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f749bf14-afc8-406f-8d3c-3c76106e4add")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 0 0)
+			(layer "F.Fab")
+			(uuid "e89fc68e-f6c7-4f17-8ea6-514c2f02f6d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "+BATT")
+			(pintype "passive")
+			(uuid "42529a69-f981-4ab9-92a0-b9caaeb64483")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "80fd1771-e12e-4d15-99f2-a93ee31e9af9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4b7efaf3-6de2-4c6b-bf12-d9ae3aa57cf9")
@@ -15047,6 +15302,261 @@
 			(fill solid)
 			(layer "F.SilkS")
 			(uuid "e3fff2fa-e253-4bbf-96b3-2ad5a81951cb")
+		)
+	)
+	(footprint "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+		(layer "F.Cu")
+		(uuid "fff40745-6e62-46a1-80bf-bb973bd382a1")
+		(at 163.06 62.728 90)
+		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
+		(tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
+		(property "Reference" "C4"
+			(at 2.5 -2.5 90)
+			(layer "F.SilkS")
+			(uuid "fd227b8a-b368-4fdf-af09-a16608cc44de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 2.5 2.5 90)
+			(layer "F.Fab")
+			(uuid "d979ba0a-cdbd-4c33-8391-a776644cce3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9981ce91-ef91-4c1f-a897-e180e2a0a328")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dd535d9-1057-4360-ac86-cbd3cce99416")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "129d3f92-b440-46fe-8561-67b3b269b479")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/9288c650-0d43-4dba-af93-2f98a973548c")
+		(sheetname "Racine")
+		(sheetfile "Otto-ESP32-XIAO.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 5.62 -1.37)
+			(end 5.62 -0.925)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b66961d1-c296-45f3-92b2-deb5ebfba600")
+		)
+		(fp_line
+			(start -0.62 -1.37)
+			(end 5.62 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "256b176d-9f34-4966-b299-5ebeb11877fc")
+		)
+		(fp_line
+			(start -0.62 -1.37)
+			(end -0.62 -0.925)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3b0e3d30-36e0-4d33-9b0a-e482eafbe9be")
+		)
+		(fp_line
+			(start 5.62 0.925)
+			(end 5.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85262355-9c74-4584-80f2-9126ef1f9260")
+		)
+		(fp_line
+			(start -0.62 0.925)
+			(end -0.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50d11f85-de6e-4bd8-b640-dc4220efb532")
+		)
+		(fp_line
+			(start -0.62 1.37)
+			(end 5.62 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6939b91c-b2ee-4298-b146-d07940d79363")
+		)
+		(fp_line
+			(start 6.05 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8697d77a-20f2-44c7-8627-7968c7742d1f")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22837bd2-d807-4331-9e3f-6301f75bc197")
+		)
+		(fp_line
+			(start 6.05 1.5)
+			(end 6.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51041642-1bcf-458e-81f8-195635e725a1")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end 6.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f99605e1-ef38-46ba-8f77-35f83865404c")
+		)
+		(fp_line
+			(start 5.5 -1.25)
+			(end -0.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ebf96fd-4510-461a-a645-9fb13dc12b42")
+		)
+		(fp_line
+			(start -0.5 -1.25)
+			(end -0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c96703a4-1b1c-45e4-a65c-414dc1a77108")
+		)
+		(fp_line
+			(start 5.5 1.25)
+			(end 5.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0eec70a5-85c4-4d35-bce7-38bb249ee640")
+		)
+		(fp_line
+			(start -0.5 1.25)
+			(end 5.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d7746f19-1010-44b3-84ff-a08d107ad8ec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 0 90)
+			(layer "F.Fab")
+			(uuid "f2c1daea-351e-4635-be8f-a17e7909e4cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "+5V")
+			(pintype "passive")
+			(uuid "8eee4049-885d-4dc9-80c0-87eb1be83941")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0 90)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "cb366e38-b2cc-434e-88a0-02c194ef9911")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm"
