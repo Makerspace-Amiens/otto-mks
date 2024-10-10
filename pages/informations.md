@@ -3,32 +3,42 @@ layout: documentation
 hide_hero: false
 doc_header: false
 component_toc: true
-hero_image: IMG_20241001_141743.jpg
+hero_image: ../../otto-mks.jpg
 hero_darken: true
-title: Le MakerSpace
-subtitle: Découvrez l'espace de prototypage du Campus
+title: Le robot Otto
+subtitle: Découvrez le robot Otto
 ---
 
-## C'est quoi le "MakerSpace" ?
+# Robot Otto
 
-Le [Makerspace](https://fr.wikipedia.org/wiki/Makerspace) est un espace de co-conception et de prototypage intégré au sein d'UniLaSalle Amiens. Il est ouvert librement aux publics du campus, à savoir les étudiants et le personnels. 
+## Qu'est-ce qu'Otto ?
+Le robot Otto est un petit robot humanoïde open-source, développé pour enseigner les bases de la robotique et de la programmation. Facile à assembler et à personnaliser, Otto est adapté aux enfants, aux étudiants et aux amateurs de robotique. Il est souvent utilisé dans les écoles et les ateliers de Makerspaces pour initier les jeunes aux STEM (Sciences, Technologie, Ingénierie, Mathématiques).
 
-C'est un lieu de rencontre et d'apprentissage permettant à chacun de concevoir, fabriquer et partager ses projets. Il s'inscrit dans la lignée de la [culture Maker](https://fr.wikipedia.org/wiki/Culture_maker) et de la philosophie des [FabLab](https://fr.wikipedia.org/wiki/Fab_lab) dont il en est la source. A ce titre, la connaissance y est partagée et nous incitons à l'autonomie des publics dans la réalisation des projets et chacun peut travailler seul ou en groupe sur son propre sujet, qu'il soit personnel ou lié à l'activité de l'école.
+## Caractéristiques principales
+- **Open-source** : Le projet est disponible gratuitement en ligne, avec des plans, des fichiers de conception 3D et des guides d'assemblage.
+- **Modulaire** : Otto peut être personnalisé avec différents capteurs, modules de son, LED, etc.
+- **Programmable** : Le robot peut être programmé avec Arduino, MakeCode, ou d’autres plateformes de programmation visuelle.
+- **Impression 3D** : Les composants du robot peuvent être imprimés en 3D, ce qui permet aux utilisateurs de fabriquer leur propre Otto.
 
-Enfin, le Makerspace est un outil pédagogique fort et ancré dans l'école. Il doit permettre l'émergence de nouveaux usages dans la formations des étudiants et doit simplifier la mise en œuvre des projets pédagogiques. Il vient également en appui à la vie étudiante et à l'accompagnement des clubs et associations du campus. 
+## Composants de base
+Pour construire un Otto, il faut généralement les composants suivants :
+- **Carte microcontrôleur** : Arduino Nano (ou similaire).
+- **Servomoteurs** : 4 mini servomoteurs pour les mouvements de marche.
+- **Capteur ultrasonique** : Pour permettre au robot de détecter les obstacles.
+- **Module de son** : Pour émettre des sons (en option).
+- **LED** : Des LEDs RGB pour les yeux (optionnel).
+- **Structure** : Pièces imprimées en 3D pour le corps, les jambes et les pieds.
 
-## Accès et horaires :
+## Fonctionnalités
+Otto est capable de réaliser divers mouvements et actions :
+- **Marche et danse** : Il peut se déplacer de différentes manières, y compris marcher, tourner, danser, etc.
+- **Détection d'obstacles** : Grâce à son capteur ultrasonique, Otto peut détecter et éviter les obstacles.
+- **Interactivité** : Avec des LED et des sons, il peut réagir de manière amusante et engageante pour les utilisateurs.
 
-Le Makerspace est accessible librement **chaque semaine** le **mercredi** de **18h à 21h** et le **jeudi** de **13h30 à 18h**. *(Dans le cadre de projets personnels, chacun est responsable du matériel et des ressources pour sa réalisation.)*
+## Ressources
+- **Site officiel** : [Otto DIY](https://www.ottodiy.com/)
+- **Fichiers et documentation** : Le projet Otto dispose d'une documentation complète avec des plans, des fichiers STL pour l'impression 3D, et des guides de programmation.
+- **Communauté** : Otto DIY a une communauté active qui partage des idées, des modifications, et des améliorations du robot.
 
-Un atelier peut être organisé chaque semaine (perfectionnement, initiation, découverte technique, etc...).
-
-Le reste de la semaine est dédié aux créneaux de TP et projets associés au Makerspace.
-
-## Notes :
-
-- [Definition Makerspace](https://fr.wikipedia.org/wiki/Makerspace)
-- [Culture Maker - Wikipedia](https://fr.wikipedia.org/wiki/Culture_maker)
-- [FabLab](https://fr.wikipedia.org/wiki/Fab_lab)
-
----
+## Pourquoi choisir Otto ?
+Le robot Otto est idéal pour quiconque souhaite explorer la robotique de manière ludique et éducative. Sa conception open-source et modulaire permet de le personnaliser selon ses préférences, en ajoutant des fonctionnalités ou en adaptant son apparence. C’est également un outil pédagogique puissant pour développer des compétences en programmation et en ingénierie.

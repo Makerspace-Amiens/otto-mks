@@ -1,10 +1,10 @@
 ---
-title: Craft The Docs
-subtitle: Documentation au sein du MakerSpace d'UniLaSalle Amiens
+title: Otto
+subtitle: Version MakerSpace du robot open-source Otto
 layout: page
-hero_height: is-fullwidth
+hero_height: is-large
 hero_darken: true
-hero_image: img/home-page.jpg
+hero_image: otto-mks.jpg
 callouts: home_callouts
 show_sidebar: false
 hide_content: true
