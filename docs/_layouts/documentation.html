@@ -235,6 +235,15 @@ layout: default
                             {% endif %}
                     </div>
                 {% endif %}
+
+                <!-- Panel block for authors -->
+                {% if page.author %}
+                <div class="panel-block">
+                    <div class="content">
+                        <b>Créée par :&nbsp;</b> {{ page.author }}
+                    </div>
+                </div>
+                {% endif %}
             </div>
         </div>
         
