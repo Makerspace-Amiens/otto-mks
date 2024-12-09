@@ -15,12 +15,12 @@
   {% for doc in sorted_docs %}
   {% if doc.type contains include.type %}
         <div class="column is-4-desktop is-6-tablet">
-          <a href="{{ doc.url | relative_url }}">
+          {% if doc.external_link %} <a href="{{ doc.external_link }}"> {% else %}  <a href="{{ doc.url | relative_url }}"> {% endif %}
             <div class="card">
               {% if doc.image %}
               {% capture image-url %}{{ site.baseurl }}{{ doc.url }}{{ doc.image }}{% endcapture %}
               <div class="card-image">
-                <figure class="image is-fullwidth">
+                <figure class="image is-fullwidth fixed-image">
                   <img src="{{ image-url }}" alt="{{ doc.title }}" />
                 </figure>
               </div>
