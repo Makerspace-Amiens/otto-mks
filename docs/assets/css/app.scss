@@ -49,3 +49,20 @@ $footer-padding: 2rem 1.5rem 2rem;
     border-radius: 1.00rem;
 }
 
+.fixed-image {
+    height: 300px; /* Ajuste cette valeur à la hauteur désirée */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.fixed-image img {
+    object-fit: cover; /* Rogne l'image pour remplir l'espace */
+    width: 100%;
+    height: 100%;
+}
+  
+
+/* Styles personnalisés pour model-viewer */
+@import "model-viewer";
