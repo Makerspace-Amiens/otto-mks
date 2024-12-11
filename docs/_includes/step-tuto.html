@@ -11,8 +11,8 @@
     {% endif %}
 </div>
 <div class="columns rounded-large-corners {% if include.greyBackground %} has-background-white-ter {% endif %}">
+    {% if include.image %}
     <div class="column is-4 mb-4">
-        {% if include.image %}
             {% include image_modal.html image=include.image %}
         <div class="columns is-mobile">
             {% if include.image_2 %}
@@ -31,8 +31,10 @@
             </div>
             {% endif %}
         </div>
+    </div>
 
-        {% elsif include.video %}
+    {% elsif include.video %}
+    <div class="column is-4 mb-4">
         <figure class="image is-16by9"> 
             <iframe class="has-ratio" 
                 src="https://www.youtube.com/embed/{{ include.video }}?start={{ include.time | default: 0 }}&showinfo=0" 
@@ -41,9 +43,10 @@
                 >
             </iframe>
         </figure>
-        {% endif %}
     </div>
-    <div class="column is-8">
+    {% endif %}
+
+    {% if include.image %}<div class="column is-8"> {% else %}<div class="column is-12">{% endif %}
         {{include.content | markdownify }}
     </div>
 </div>
