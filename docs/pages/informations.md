@@ -16,7 +16,7 @@ Le robot Otto est un petit robot humanoïde open-source, développé pour enseig
 
 ## Caractéristiques principales
 - **Open-source** : Le projet est disponible gratuitement en ligne, avec des plans, des fichiers de conception 3D et des guides d'assemblage.
-- **Modulaire** : Otto peut être personnalisé avec différents capteurs, modules de son, LED, etc.
+- **Modulaire** : Otto peut être personnalisé en ajoutant des éléments mécaniques ou différents capteurs, modules de son, LED, etc.
 - **Programmable** : Le robot peut être programmé avec Arduino, MakeCode, ou d’autres plateformes de programmation visuelle.
 - **Impression 3D** : Les composants du robot peuvent être imprimés en 3D, ce qui permet aux utilisateurs de fabriquer leur propre Otto.
 

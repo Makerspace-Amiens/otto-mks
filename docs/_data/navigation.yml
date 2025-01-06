@@ -2,3 +2,7 @@
   link: /pages/informations/
 - name: Tutoriels
   link: /pages/tutoriels
+- name: Matériel
+  link: /pages/hardware
+- name: Logiciel
+  link: /pages/software

@@ -8,7 +8,7 @@ component_toc: true
 doc_header: true
 type: tuto
 
-title: Démarrer avec OnShape
+title: 02 - Démarrer avec OnShape
 subtitle: Créer votre compte, créez votre projet, etc...
 description: Cette page détaille les différentes étapes pour commencer avec OnShape
 

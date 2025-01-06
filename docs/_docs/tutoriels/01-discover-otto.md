@@ -8,27 +8,21 @@ component_toc: true
 doc_header: true
 type: tuto
 
-title: Découvrez Otto !
+title: 01 - Découvrez Otto !
 subtitle: Comment le construire, ses possibilités, ...
-description: Cette page détaille les différentes étapes pour la réalisation du robot Otto
+description: Vous découvrerez ici le robot Otto, son histoire et les raisons de son succès !
 
 time: 1
 difficulty: 1
 
-prerequisites:
-  - label: Aucun
-    link: ""
-
-softwares: 
-  - label: Aucun
-    link: ""
-
 todo: 10
+
+author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 ## Qu'est-ce qu'Otto ?
 
-Le robot Otto est un petit robot humanoïde open-source, développé pour enseigner les bases de la robotique et de la programmation. Facile à assembler et à personnaliser, Otto est adapté aux enfants, aux étudiants et aux amateurs de robotique. Il est souvent utilisé dans les écoles et les ateliers de Makerspaces pour initier les jeunes aux STEM (Sciences, Technologie, Ingénierie, Mathématiques).
+Le robot Otto est un petit robot bipède open-source, développé pour enseigner les bases de la robotique et de la programmation. Facile à assembler et à personnaliser, Otto est adapté aux étudiants et aux amateurs de robotique. Il est souvent utilisé dans les écoles et les ateliers de Makerspaces pour initier les jeunes aux STEM (Sciences, Technologie, Ingénierie, Mathématiques).
 
 ## Otto-MKS
 
