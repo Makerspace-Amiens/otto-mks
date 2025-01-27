@@ -9,7 +9,7 @@ doc_header: true
 type: hardware
 
 title: Carte OTTO-MKS
-subtitle: Carte éléctronique conçue sur mesure pour contrôler notre Otto-MKS !
+subtitle: Carte électronique conçue sur mesure pour contrôler notre Otto-MKS !
 description: Cette page détaille le fonctionnement des composants de la carte.
 
 todo: 10
