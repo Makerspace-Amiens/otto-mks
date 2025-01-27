@@ -1,9 +1,9 @@
 ---
 layout: documentation
 hide_hero: false
-hero_image: Arduino_IDE_Fia33YwlyJ.png
+hero_image: image.png
 hero_darken: true
-image: Arduino_IDE_Fia33YwlyJ.png
+image: image.png
 component_toc: true
 doc_header: true
 type: tuto
