@@ -175,14 +175,12 @@ title="A faire"
 message="
 **Niveau 1 :**
 - Créez une fonction permettant de récupérer la distance du capteur et de la retourner
-- Créez une fonciton permettant d'afficher la distance
+- Créez une fonction permettant d'afficher la distance
 
 **Niveau 2 :**
-- Créez un booléen global `debug` qui, quand il est mis à `true` affiche la distance mesurée
+- Créez un booléen global `debug` qui, quand il est mis à `true` affiche la distance mesurée dans la fonction d'affichage sur le port série
 
-Cette variable pourra être utilisée dans le code pour activer ou non l'affichage d'elements de debug sur le prot série.
-
- " 
+Cette variable pourra être utilisée dans le code pour activer ou non l'affichage d'elements de debug sur le prot série." 
 status="is-info" 
 icon="fas fa-pen" %}
 
