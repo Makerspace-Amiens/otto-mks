@@ -44,7 +44,7 @@ Arduino est une plateforme de prototypage électronique qui permet de développe
 
 ---
 
-Dans notre cas par exemple, nous allons utilsier une carte spéficique au projet Otto-Mks basée sur un module XIAO ESP32C3. La carte XIAO est compatible avec l'IDE Arduino et le firmware Arduino, ce qui signifie que les projets et programmes développés avec Arduino peuvent être portés facilement sur cette carte. Elle présente des avantages comme :
+Dans notre cas par exemple, nous allons utiliser une carte spéficique au projet Otto-Mks basée sur un module XIAO ESP32C3. La carte XIAO est compatible avec l'IDE Arduino et le firmware Arduino, ce qui signifie que les projets et programmes développés avec Arduino peuvent être portés facilement sur cette carte. Elle présente des avantages comme :
 
 - Un format ultra compact.
 - Une consommation énergétique faible.
