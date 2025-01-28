@@ -1,9 +1,9 @@
 ---
 layout: documentation
 hide_hero: false
-hero_image: otto-mks.jpg
+hero_image: IMG_20250128_151446-EDIT.jpg
 hero_darken: true
-image: otto-mks.jpg
+image: IMG_20250128_151446-EDIT.jpg
 component_toc: true
 doc_header: true
 type: tuto
@@ -20,9 +20,52 @@ todo: 10
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 
+## Présentation del a cartes
+
+La carte du robot **Otto-MKS** a été conçue par le **MakerSpace d'UniLaSalle Amiens** pour faciliter l'utilisation du robot Otto. Cette carte intègre un microcontrôleur et permet de piloter Otto ainsi que ses différents éléments. 
+
+### Caractéristiques principales :
+- **Microcontrôleur ESP32-C3** basé sur un module **XIAO** (voir détails ci-dessous).
+- **Connexion pour une batterie 9V rechargeable**.
+- **Interrupteur à levier** pour la mise sous tension.
+- **LED témoin d'alimentation**.
+- **Connecteur pour un capteur ultrason HC-SR04**.
+- **4 connecteurs pour servomoteurs 9g**.
+- **Buzzer** intégré pour les signaux sonores.
+
+### Options supplémentaires :
+Des fonctionnalités supplémentaires peuvent être ajoutées en soudant des connecteurs pour intégrer :
+- Un **écran OLED I2C 0,91"**.
+- Un **extendeur de 16 servomoteurs PCA9685**.
+- Un **capteur 6DOF MPU6050**, comprenant :
+  - Accéléromètre 3 axes.
+  - Gyroscope 3 axes.
+- **Deux servomoteurs supplémentaires**
+
+### Caractéristiques techniques :
+
+- **Dimensions** : 50 x 60 mm  
+- **Fixation** : Par le pas de vis de l'interrupteur  
+- **Alimentation batterie** : 9V standard (Vmin : 7V, Vmax : 12V)  
+- **Régulation 5V** : 1A pour les servomoteurs  
+- **Régulation 3.3V** : Intégrée au module XIAO, 700 mA max  
+
+---
+
+{% include image-row.html 
+image_1 = "IMG_20250128_151541-EDIT.jpg"
+image_2 = "IMG_20250128_151625-EDIT.jpg"
+%}
+
+---
+
 {% include 3d-model.html model="Otto-ESP32-XIAO-Lite.glb" poster="kicanvas-example.webp" %}
 
+---
+
 ## Schémas et Routage de la carte
+
+Vous trouverez ci-dessous les schémas et PCB interactifs de la carte **Otto-MKS**. Les sources de la carte sont disponibles sur notre [repository GitHub](https://github.com/Makerspace-Amiens/otto-mks/tree/main/sources/Electronics/Otto-ESP32-XIAO-Lite).  
 
 <kicanvas-embed src="Otto-ESP32-XIAO-Lite.kicad_sch" controls="basic">
 </kicanvas-embed>
@@ -30,7 +73,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 <kicanvas-embed src="Otto-ESP32-XIAO-Lite.kicad_pcb" controls="advanced">
 </kicanvas-embed>
 
-## Détails
+## Détails du microcontrôleur
 
 La carte Otto, conçue par le MakerSpace, est basée sur le module XIAO-ESP32C3. Ce module intègre un microcontrôleur ESP32-C3, ainsi que tous les composants nécessaires pour assurer son fonctionnement de manière autonome.
 

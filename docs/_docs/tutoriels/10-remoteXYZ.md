@@ -395,10 +395,8 @@ image_2="Screenshot_2025-01-28-12-47-15-711_com.shevauto.remotexy.free.jpg"
 {% include message.html 
 title="A faire" 
 message="
-Les servomoteurs du Otto sont branchés sur les broches `D7`,`D8`,`D9`et`D10`
-
-- Créez un programme permettant de tester les 4 servomoteurs du Otto de 0 à 180°.
-- Créez un programme permettant de mettre tous les servomoteurs à 90° **pour l'assemblage du robot**.
+- Créer un programme et une application pour piloter le Otto
+- Adapter le Otto au règlement des différentes compétitions
 " 
 status="is-info" 
 icon="fas fa-pen" %}
