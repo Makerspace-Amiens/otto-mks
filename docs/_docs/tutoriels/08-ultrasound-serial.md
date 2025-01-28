@@ -180,7 +180,7 @@ message="
 **Niveau 2 :**
 - Créez un booléen global `debug` qui, quand il est mis à `true` affiche la distance mesurée dans la fonction d'affichage sur le port série
 
-Cette variable pourra être utilisée dans le code pour activer ou non l'affichage d'elements de debug sur le prot série." 
+Cette variable pourra être utilisée dans le code pour activer ou non l'affichage d'éléments de debug sur le port série." 
 status="is-info" 
 icon="fas fa-pen" %}
 
