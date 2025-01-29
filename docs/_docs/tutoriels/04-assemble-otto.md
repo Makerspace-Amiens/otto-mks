@@ -23,15 +23,13 @@ Vos pièces maintenant imprimées, suivez ce guide pour les assembler en un Otto
 {% include message.html title="Attention" message="**Prenez votre temps** à chaque étape, en vérifiant votre assemblage régulièment, notamment sur le **type de vis** à utiliser." status="is-warning" dismissable="true" icon="fas fa-exclamation-triangle" %}
 
 {% include step-tuto.html 
-greyBackground = true
+greyBackground = false
 
-title="Pour aller plus loin"
-image="copied_assembly.png"
-image_2="copied_head.png"
-image_3="copied_body.png"
-image_4="copied_servo.png"
+title="Matériel"
 
-content="Vous devriez maintenant avoir votre document dans votre espace avec les droits nécessaires pour le modifier. Explorez les dossiers pour découvrir les différents éléments déjà intégrés. Vous trouverez les composants fournis dans le dossier **Components**." %}
+image="BOM.png"
+
+content="bibo" %}
 
 ---
 
