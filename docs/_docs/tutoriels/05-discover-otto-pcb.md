@@ -20,7 +20,7 @@ todo: 10
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 
-## Présentation del a cartes
+## Présentation de la carte
 
 La carte du robot **Otto-MKS** a été conçue par le **MakerSpace d'UniLaSalle Amiens** pour faciliter l'utilisation du robot Otto. Cette carte intègre un microcontrôleur et permet de piloter Otto ainsi que ses différents éléments. 
 
