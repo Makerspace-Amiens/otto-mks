@@ -53,7 +53,7 @@ title="Étape 3 - Assemblage des palonniers"
 content="**Découpez** deux palonniers comme indiqué, puis insérez-les dans les pièces **Leg**.  
 Enfoncez les palonniers jusqu'au **fond des emplacements prévus.**" %}
 
-{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/09-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-exclamation-triangle" %}
+{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-exclamation-triangle" %}
 
 {% include step-tuto.html 
 greyBackground = false
@@ -91,7 +91,7 @@ content="Vissez fermement les palonniers.
 **⚠️ Vérifiez le type de vis**
 " %}
 
-{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/09-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-exclamation-triangle" %}
+{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-exclamation-triangle" %}
 
 {% include step-tuto.html 
 greyBackground = false
