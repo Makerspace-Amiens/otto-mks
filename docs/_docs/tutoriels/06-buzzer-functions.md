@@ -8,7 +8,7 @@ component_toc: true
 doc_header: true
 type: tuto
 
-title: 07 - Premier programme - Buzzer et Fonctions !
+title: 06 - Premier programme - Buzzer et Fonctions !
 subtitle: Vos premiers pas avec la Arduino
 description: Cette page va vous accompagner dans l'utilisation du Buzzer de la carte Otto-MKS et la révision des bases du C/C++
 

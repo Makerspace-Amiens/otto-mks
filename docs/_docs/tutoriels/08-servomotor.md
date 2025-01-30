@@ -8,7 +8,7 @@ component_toc: true
 doc_header: true
 type: tuto
 
-title: 09 - Servomoteurs
+title: 08 - Servomoteurs
 subtitle: Piloter un servomoteur pour le robot
 description: Cette page va vous accompagner dans l'utilisation des servomoteurs sur le Otto-MKS
 
