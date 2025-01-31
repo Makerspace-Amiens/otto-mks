@@ -1,7 +1,9 @@
 ---
 layout: documentation
 hide_hero: false
+hero_image: otto_run.png
 hero_darken: true
+image: otto_run.png
 component_toc: true
 doc_header: true
 type: ottolympiades
