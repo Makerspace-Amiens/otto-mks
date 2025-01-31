@@ -31,7 +31,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 {% include message.html 
 title="Information" 
-message="Une description technique du fonctionnement d'un servomoteur est disponible [sur la page dédiée](../../hardware/servomotor)" 
+message="Une description technique du fonctionnement d'un servomoteur est disponible [sur la page dédiée](../../ressources/servomotor)" 
 status="is-info" 
 icon="fas fa-info" %}
 

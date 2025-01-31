@@ -12,7 +12,7 @@ title: 09 - Assemblez votre Otto-MKS
 subtitle: Guide d'assemblage d'Otto-MKS
 description: Suivez ces étapes pour assembler votre Otto-MKS !
 
-author : Rémi Lacombe
+author: Adrien BRACQ & Rémi LACOMBE
 
 time: 1
 difficulty: 1

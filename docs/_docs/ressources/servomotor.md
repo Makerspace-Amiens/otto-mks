@@ -6,9 +6,9 @@ hero_darken: true
 image: image.png
 component_toc: true
 doc_header: true
-type: hardware
+type: ressources
 
-title: Le Servomoteur
+title: Le Servomoteur - En savoir plus
 subtitle: Piloter un mouvement angulaire limité
 description: Cette page détaille le fonctionnement d'un servomoteur de modélisme
 manufacturer:
@@ -97,5 +97,5 @@ Condensateurs de découplage :
   include card_collections.html
   title="Pour aller plus loin"
   description="Trouvez d'autres tutoriels en lien avec le projet"
-  type="hardware"
+  type="ressources"
 %}

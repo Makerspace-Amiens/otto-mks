@@ -2,7 +2,7 @@
   link: /pages/informations/
 - name: Tutoriels
   link: /pages/tutoriels
-- name: Matériel
-  link: /pages/hardware
 - name: Ressources
   link: /pages/ressources
+- name: ✨ Ottolympiades ✨
+  link: /pages/ottolympiades

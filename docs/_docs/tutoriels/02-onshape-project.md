@@ -15,6 +15,8 @@ description: Cette page détaille les différentes étapes pour commencer avec O
 time: 1
 difficulty: 1
 
+author: Adrien BRACQ & Rémi LACOMBE
+
 ---
 
 Le projet sera entièrement réalisé sur **Onshape**, un outil puissant que vous avez déjà utilisé par le passé. Très similaire à des logiciels comme SolidWorks ou Fusion 360, Onshape se distingue par son **accessibilité** et sa **collaborativité**. Accessible directement depuis un navigateur, il fonctionne sur n’importe quelle configuration de PC, permettant ainsi à chacun de travailler en *temps réel* sur un **même fichier partagé en ligne**.

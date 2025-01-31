@@ -15,6 +15,8 @@ description: Cette page détaille les différentes étapes pour exporter une pi�
 time: 1
 difficulty: 1
 
+author: Adrien BRACQ & Rémi LACOMBE
+
 ---
 
 
