@@ -81,7 +81,7 @@ greyBackground = false
 image = "step 6.png"
 title="Étape 6 - Assemblage des palonniers des pieds"
 
-content="Insérez les palonniers dans les pièces **Foot** jusqu'à la butée.
+content="Insérez les palonniers dans les pièces **Left_Foot** et **Right_Foot** jusqu'à la butée.
 " %}
 
 {% include step-tuto.html 

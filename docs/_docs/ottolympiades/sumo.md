@@ -17,4 +17,5 @@ todo: 50
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 
-
+{% include message.html title="Bientôt !" message="Work in progress..Bientôt disponible !"
+status="is-warning" dismissable="false" icon="fas fa-exclamation-triangle" %}

@@ -9,36 +9,78 @@ title: Le robot Otto
 subtitle: Découvrez le robot Otto
 ---
 
-# Robot Otto
+# Otto, c'est quoi ?
 
-## Qu'est-ce qu'Otto ?
 Le robot Otto est un petit robot humanoïde open-source, développé pour enseigner les bases de la robotique et de la programmation. Facile à assembler et à personnaliser, Otto est adapté aux enfants, aux étudiants et aux amateurs de robotique. Il est souvent utilisé dans les écoles et les ateliers de Makerspaces pour initier les jeunes aux STEM (Sciences, Technologie, Ingénierie, Mathématiques).
 
-## Caractéristiques principales
+{% include image-row.html 
+image_1 = "Otto_Original.png" 
+image_2 = "Otto_Original_Pose.png"
+%}
+
+
+## Otto en 4 points clés
+
 - **Open-source** : Le projet est disponible gratuitement en ligne, avec des plans, des fichiers de conception 3D et des guides d'assemblage.
 - **Modulaire** : Otto peut être personnalisé en ajoutant des éléments mécaniques ou différents capteurs, modules de son, LED, etc.
-- **Programmable** : Le robot peut être programmé avec Arduino, MakeCode, ou d’autres plateformes de programmation visuelle.
+- **Programmable** : Le robot peut être programmé avec Arduino, ou d’autres plateformes de programmation visuelle.
 - **Impression 3D** : Les composants du robot peuvent être imprimés en 3D, ce qui permet aux utilisateurs de fabriquer leur propre Otto.
 
-## Composants de base
-Pour construire un Otto, il faut généralement les composants suivants :
-- **Carte microcontrôleur** : Arduino Nano (ou similaire).
-- **Servomoteurs** : 4 mini servomoteurs pour les mouvements de marche.
-- **Capteur ultrasonique** : Pour permettre au robot de détecter les obstacles.
-- **Module de son** : Pour émettre des sons (en option).
-- **LED** : Des LEDs RGB pour les yeux (optionnel).
-- **Structure** : Pièces imprimées en 3D pour le corps, les jambes et les pieds.
+## Otto-MKS
 
-## Fonctionnalités
-Otto est capable de réaliser divers mouvements et actions :
-- **Marche et danse** : Il peut se déplacer de différentes manières, y compris marcher, tourner, danser, etc.
-- **Détection d'obstacles** : Grâce à son capteur ultrasonique, Otto peut détecter et éviter les obstacles.
-- **Interactivité** : Avec des LED et des sons, il peut réagir de manière amusante et engageante pour les utilisateurs.
+Sur les bases de ce projet, nous avons créé une version sur mesure, made in **UniLaSalle Amiens**, en **améliorant et modifiant certains points**, par exemple, notre version de Otto peut se connecter en **Bluetooth** ou **WiFi** a un téléphone !
+
+
+{% include image-row.html 
+image_1 = "Otto-MKS-EXPLODED.png" 
+image_2 = "OTTO-MKS.png"
+%}
+
+Pour construire un **Otto-MKS**, les composants suivants vous serons fournis :
+
+{% include step-tuto.html 
+greyBackground = false
+image = "PCB.jpg"
+title="Carte électronique Otto-MKS"
+content="Conçue sur mesure au **MakerSpace**, cette carte intègre un micro-contrôleur **ESP32**, une **Led**, un **interrupteur**, des sorties pour servomoteurs, ainsi qu'un emplacement pour capteur ultrason HC-SR04 et d'autres connecteurs pour d'éventuelles composants additionnels (Gyroscope, Ecran...)" %}
+
+{% include step-tuto.html 
+greyBackground = false
+image = "servo.png"
+title="Servomoteurs"
+content="4 servomoteurs pour les **mouvements de marche**" %}
+
+{% include step-tuto.html 
+greyBackground = false
+image = "HC-SR04.png"
+title="Capteur ultrason"
+content="Permet au robot d'obtenir des **informations sur son environnement** (Présence, Distance, Mouvement...)" %}
+
+{% include step-tuto.html 
+greyBackground = false
+image = "Battery.png"
+title="Batterie 9V rechargeable"
+content="Batterie **rechargeable en USB-C** aux dimensions standards d'une **pile 9V** simplifiant sa connection" %}
+
+## Ottolympiades
+
+Par groupe de 3, vous devrez fabriquer votre propre Otto-MKS grâce aux tutoriels et ressources de ce site !
+En fin d'année, lors de la journée des projets, un grand tournoi sera organisé pour tester vos robots à travers plusieurs épreuves !
+
+{%
+  include card_collections.html
+  description="Testez votre robot sur tout les terrains !"
+  type="ottolympiades"
+%}
+
+Pour tenter de remporter ces épreuves, vous devrez faire preuve de créativité en modifiant vos robots comme vous le voudrez en suivant les règles énoncées ici :
+
+{% include message.html title="Bientôt !" message="Work in progress..Bientôt disponible !"
+status="is-warning" dismissable="false" icon="fas fa-exclamation-triangle" %}
+
+Imaginez, testez, itèrez, programmez, ajoutez des bras, une bouche, des cheveux...en bref appropriez vous le projet Otto-MKS !
 
 ## Ressources
-- **Site officiel** : [Otto DIY](https://www.ottodiy.com/)
-- **Fichiers et documentation** : Le projet Otto dispose d'une documentation complète avec des plans, des fichiers STL pour l'impression 3D, et des guides de programmation.
-- **Communauté** : Otto DIY a une communauté active qui partage des idées, des modifications, et des améliorations du robot.
 
-## Pourquoi choisir Otto ?
-Le robot Otto est idéal pour quiconque souhaite explorer la robotique de manière ludique et éducative. Sa conception open-source et modulaire permet de le personnaliser selon ses préférences, en ajoutant des fonctionnalités ou en adaptant son apparence. C’est également un outil pédagogique puissant pour développer des compétences en programmation et en ingénierie.
+- **Site officiel** : [Otto DIY](https://www.ottodiy.com/)
+- **Communauté** : Otto DIY a une communauté active qui partage des idées, des modifications, et des améliorations du robot.

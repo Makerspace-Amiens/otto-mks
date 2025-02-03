@@ -40,5 +40,5 @@ status="is-info" dismissable="false" icon="fas fa-exclamation-triangle" %}
   include card_collections.html
   title="Pour aller plus loin"
   description="Trouvez d'autres tutoriels en lien avec Otto"
-  type="otto"
+  type="tuto"
 %}
