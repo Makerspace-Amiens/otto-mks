@@ -1,18 +1,18 @@
 ---
 layout: documentation
 hide_hero: false
-hero_image: onshapeLogo.png
+hero_image: print_head_green.gif
 hero_darken: true
-image: onshapeLogo.png
+image: print_head_green.gif
 component_toc: true
 doc_header: true
 type: tuto
 
-title: 03 - Modifiez, exportez et imprimez Otto !
+title: 03 - Exportez et imprimez Otto !
 subtitle: Exportez et imprimez les pièces d'Otto
-description: Cette page détaille les différentes étapes pour exporter une pièce depuis Onshape et l'imprimer
+description: Cette page détaille la structure du fichier d'assemblage, comment exporter une pièce et l'imprimer
 
-time: 1
+time: 2
 difficulty: 1
 
 author: Adrien BRACQ & Rémi LACOMBE
@@ -21,29 +21,17 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 Maintenant que vous avez dupliqué le fichier OTTO-MKS, vous devez exporter et imprimer les pièces suivantes dans les couleurs de votre choix :
 
-{% include step-tuto.html 
-greyBackground = false
-image = "Head.png"
-title="1x Head"
-content="" %}
+{% include image-row.html 
+image_1 = "Head.png" 
+image_2 = "Body.png"
+image_3 = "Leg.png" 
+image_4 = "Feet.png"
+%}
 
-{% include step-tuto.html 
-greyBackground = false
-image = "Body.png"
-title="1x Body"
-content="" %}
-
-{% include step-tuto.html 
-greyBackground = false
-image = "Leg.png"
-title="2x Leg"
-content="" %}
-
-{% include step-tuto.html 
-greyBackground = false
-image = "Feet.png"
-title="1x Left_Foot & 1x Right_Foot"
-content="" %}
+- 1x **Head**
+- 1x **Body**
+- 2x **Leg**
+- 1x **Left_Foot** & 1x **Right_Foot**
 
 ## Exporter une pièce depuis Onshape
 
@@ -52,7 +40,7 @@ Sélectionnez d'abord **l'onglet** contenant la pièce à exporter. Nous prendro
 {% include step-tuto.html 
 greyBackground = false
 image = "viewport.png"
-title="Sélectionnez la pièce"
+title="Sélectionnez la pièce sur le panneau inférieur du volet gauche"
 content="" %}
 
 {% include step-tuto.html 
@@ -69,7 +57,7 @@ content="" %}
 
 {% include message.html 
 title="Information" 
-message="Le format **.STEP** est recommandé car il offre davantage de détails et permet d'exporter un assemblage contenant plusieurs pièces distinctes" 
+message="Le format **.STEP** est recommandé car il offre davantage de détails et permet d'exporter un assemblage contenant plusieurs pièces séparés en un seul fichier" 
 status="is-info" 
 dismissable="true" 
 icon="fas fa-exclamation" %}
@@ -79,6 +67,8 @@ greyBackground = false
 image = "printerlab.png"
 title="Impression"
 content="Copiez le fichier téléchargé sur une **clé USB**, rendez-vous au **PrinterLab** et suivez [ce tutoriel](https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece/)" %}
+
+Pendant que vos pièces s'impriment, suivez attentivement les prochains tutoriels, à commencer par la **découverte de la carte électronique** ! [**04 - Découvrez la carte du Otto**](/docs/tutoriels/04-discover-otto-pcb)
 
 ---
 

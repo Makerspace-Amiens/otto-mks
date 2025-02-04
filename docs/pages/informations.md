@@ -78,7 +78,7 @@ Pour tenter de remporter ces épreuves, vous devrez faire preuve de créativité
 {% include message.html title="Bientôt !" message="Work in progress..Bientôt disponible !"
 status="is-warning" dismissable="false" icon="fas fa-exclamation-triangle" %}
 
-Imaginez, testez, itèrez, programmez, ajoutez des bras, une bouche, des cheveux...en bref appropriez vous le projet Otto-MKS !
+**Imaginez**, **testez**, **itèrez**, **programmez**, ajoutez **des bras**, **des capteurs**, **des lumières**...en bref appropriez vous le projet Otto-MKS !
 
 ## Ressources
 

@@ -12,16 +12,20 @@ title: 02 - Démarrer avec OnShape
 subtitle: Créer votre compte, créez votre projet, etc...
 description: Cette page détaille les différentes étapes pour commencer avec OnShape
 
-time: 1
+author: Adrien BRACQ & Rémi LACOMBE
+
+time: 2
 difficulty: 1
 
-author: Adrien BRACQ & Rémi LACOMBE
+softwares: 
+- label: OnShape
+  link: "https://www.onshape.com/"
 
 ---
 
 Le projet sera entièrement réalisé sur **Onshape**, un outil puissant que vous avez déjà utilisé par le passé. Très similaire à des logiciels comme SolidWorks ou Fusion 360, Onshape se distingue par son **accessibilité** et sa **collaborativité**. Accessible directement depuis un navigateur, il fonctionne sur n’importe quelle configuration de PC, permettant ainsi à chacun de travailler en *temps réel* sur un **même fichier partagé en ligne**.
 
-Pour ce projet, nous mettons à votre disposition **un fichier de départ** contenant l'assemblage et l'ensemble des pièces du **Otto-MKS**. Après l'avoir **copié**, vous devrez le **modifier** pour en faire **votre propre version** !
+Pour ce projet, nous mettons à votre disposition **un fichier de départ** contenant l'assemblage et l'ensemble des pièces du **Otto-MKS**. Après l'avoir **copié**, vous devrez d'abord l'imprimer, l'assembler, le programmer, puis le **modifier** pour en faire **votre propre version** !
 
 Assurez-vous de suivre attentivement les étapes ci-dessous pour bien démarrer votre projet.
 
@@ -110,7 +114,9 @@ content="En haut de votre document, cliquez sur le bouton **Partager**.
 
 ![alt text](image-9.png)
 
-Dans la fenêtre qui s'ouvre, cochez la case **Partager**, puis ajoutez les adresses de tous les membres du groupe **ainsi que celle de votre enseignant.**" 
+Dans la fenêtre qui s'ouvre, cochez la case **Partager**, puis ajoutez les adresses de tous les membres du groupe **ainsi que celle de vos enseignants.**  
+- **adrien.bracq@unilasalle.fr**
+- **remi.lacombe@etu.unilasalle.fr**" 
 image="image-10.png" 
 %}
 
