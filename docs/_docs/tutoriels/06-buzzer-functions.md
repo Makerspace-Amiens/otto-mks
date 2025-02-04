@@ -13,9 +13,7 @@ subtitle: Vos premiers pas avec la Arduino
 description: Cette page va vous accompagner dans l'utilisation du Buzzer de la carte Otto-MKS et la révision des bases du C/C++
 
 time: 3
-difficulty: 1
-
-todo: 95
+difficulty: 2
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

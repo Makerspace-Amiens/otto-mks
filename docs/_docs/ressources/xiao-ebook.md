@@ -12,6 +12,7 @@ external_link: https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/
 title: Xiao - eBook
 subtitle: Ressources pour les microcontrolleurs XIAO
 description: Ressources pour les microcontrolleurs XIAO
-todo: 10
+
+
 author: Adrien BRACQ
 ---

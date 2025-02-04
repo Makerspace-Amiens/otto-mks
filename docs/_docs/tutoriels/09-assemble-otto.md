@@ -14,8 +14,8 @@ description: Suivez ces étapes pour assembler votre Otto-MKS !
 
 author: Adrien BRACQ & Rémi LACOMBE
 
-time: 1
-difficulty: 1
+time: 4
+difficulty: 2
 
 ---
 Maintenant que vos pièces sont imprimées, suivez ce guide pour assembler votre Otto-MKS ! 
@@ -147,6 +147,16 @@ title="Étape 12 - Assemblage du capteur ultrason"
 content="Glissez le capteur dans la pièce **Head** selon la position et le sens indiqués.  
     
 **⚠️ Attention : les grilles avant des capteurs sont très fragiles, évitez d'appuyer dessus**  
+" %}
+
+{% include step-tuto.html 
+greyBackground = false
+image = "duck.png"
+title="Étape BONUS - Pause canard"
+
+content="Prenez une pause pour observer le **canard jaune** de votre kit, si vous avez rencontré des problèmes depuis le début du montage, il saura vous **écouter avec compassion** !
+
+[**source**](https://rubberduckdebugging.com)
 " %}
 
 {% include step-tuto.html 

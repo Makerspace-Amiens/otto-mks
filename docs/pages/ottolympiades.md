@@ -9,15 +9,12 @@ title: Ottolympiades
 subtitle: Présentation et règlement du tournoi Otto !
 ---
 
-# Robot Otto
-## Qu'est-ce qu'Otto ?
-Le robot Otto est un petit robot humanoïde open-source, développé pour enseigner les bases de la robotique et de la programmation. Facile à assembler et à personnaliser, Otto est adapté aux enfants, aux étudiants et aux amateurs de robotique. Il est souvent utilisé dans les écoles et les ateliers de Makerspaces pour initier les jeunes aux STEM (Sciences, Technologie, Ingénierie, Mathématiques).
+# Les Ottolympiades
 
-## Caractéristiques principales
-- **Open-source** : Le projet est disponible gratuitement en ligne, avec des plans, des fichiers de conception 3D et des guides d'assemblage.
-- **Modulaire** : Otto peut être personnalisé en ajoutant des éléments mécaniques ou différents capteurs, modules de son, LED, etc.
-- **Programmable** : Le robot peut être programmé avec Arduino, MakeCode, ou d’autres plateformes de programmation visuelle.
-- **Impression 3D** : Les composants du robot peuvent être imprimés en 3D, ce qui permet aux utilisateurs de fabriquer leur propre Otto.
+## Présentation
+Lors de la journée des projet, le X mai, chacun des groupe participera aux **Ottolympiades**, un tournoi de robotique organisé au sein d'UniLaSalle Amiens, pour tester vos robots sur tous les terrains !
+
+Vous devrez adapter, modifier, bricoler votre robot Otto-MKS pour 2
 
 ## Epreuves
 {%

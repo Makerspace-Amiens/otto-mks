@@ -12,10 +12,12 @@ title: 03 - Exportez et imprimez Otto !
 subtitle: Exportez et imprimez les pièces d'Otto
 description: Cette page détaille la structure du fichier d'assemblage, comment exporter une pièce et l'imprimer
 
-time: 2
-difficulty: 1
-
 author: Adrien BRACQ & Rémi LACOMBE
+
+time: 3
+difficulty: 2
+
+
 
 ---
 
@@ -29,7 +31,7 @@ image_4 = "Feet.png"
 %}
 
 - 1x **Head**
-- 1x **Body**
+- 1x **Body**  
 - 2x **Leg**
 - 1x **Left_Foot** & 1x **Right_Foot**
 
@@ -40,33 +42,33 @@ Sélectionnez d'abord **l'onglet** contenant la pièce à exporter. Nous prendro
 {% include step-tuto.html 
 greyBackground = false
 image = "viewport.png"
-title="Sélectionnez la pièce sur le panneau inférieur du volet gauche"
-content="" %}
+title = "Sélectionnez la pièce sur le panneau inférieur du volet gauche"
+content = "" %}
 
 {% include step-tuto.html 
 greyBackground = false
 image = "right_click.png"
-title="Cliquez droit sur la pièce"
-content="" %}
+title = "Cliquez droit sur la pièce"
+content = "" %}
 
 {% include step-tuto.html 
 greyBackground = false
 image = "Export.png"
-title="Cliquez sur exporter et sélectionnez le format .STEP ou .3MF"
-content="" %}
+title = "Cliquez sur exporter et sélectionnez le format .STEP ou .3MF"
+content = "" %}
 
 {% include message.html 
-title="Information" 
-message="Le format **.STEP** est recommandé car il offre davantage de détails et permet d'exporter un assemblage contenant plusieurs pièces séparés en un seul fichier" 
-status="is-info" 
-dismissable="true" 
-icon="fas fa-exclamation" %}
+title = "Information" 
+message = "Le format **.STEP** est recommandé car il offre davantage de détails et permet d'exporter un assemblage contenant plusieurs pièces séparées en un seul fichier" 
+status = "is-info" 
+dismissable = "true" 
+icon = "fas fa-exclamation" %}
 
 {% include step-tuto.html 
 greyBackground = false
 image = "printerlab.png"
-title="Impression"
-content="Copiez le fichier téléchargé sur une **clé USB**, rendez-vous au **PrinterLab** et suivez [ce tutoriel](https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece/)" %}
+title = "Impression"
+content = "Copiez le fichier téléchargé sur une **clé USB**, rendez-vous au **PrinterLab** et suivez [ce tutoriel](https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece/)" %}
 
 Pendant que vos pièces s'impriment, suivez attentivement les prochains tutoriels, à commencer par la **découverte de la carte électronique** ! [**04 - Découvrez la carte du Otto**](/docs/tutoriels/04-discover-otto-pcb)
 
@@ -74,7 +76,7 @@ Pendant que vos pièces s'impriment, suivez attentivement les prochains tutoriel
 
 {%
   include card_collections.html
-  title="Pour aller plus loin"
-  description="Trouvez d'autres tutoriels en lien avec le projet"
-  type="tuto"
+  title = "Pour aller plus loin"
+  description = "Trouvez d'autres tutoriels en lien avec le projet"
+  type = "tuto"
 %}

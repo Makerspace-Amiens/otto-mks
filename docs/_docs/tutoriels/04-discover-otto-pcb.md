@@ -15,8 +15,6 @@ description: Vous découvrerez ici la carte électronique qui pilote le robot Ot
 time: 1
 difficulty: 1
 
-todo: 10
-
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 

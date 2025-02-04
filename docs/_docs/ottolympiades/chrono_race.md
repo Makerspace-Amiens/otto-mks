@@ -12,7 +12,7 @@ title: ⏱️ Chrono challenge
 subtitle: 1 mètre en ligne droite, faites le meilleur temps !
 description: Poussez le robot adverse en dehors de la zone de jeu ! 
 
-todo: 50
+todo: 10
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

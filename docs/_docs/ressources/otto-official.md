@@ -13,6 +13,5 @@ title: Otto - Officiel
 subtitle: Le site du projet opensource officiel Otto
 description: Le site du projet opensource officiel Otto
 
-todo: 10
 author: Adrien BRACQ
 ---

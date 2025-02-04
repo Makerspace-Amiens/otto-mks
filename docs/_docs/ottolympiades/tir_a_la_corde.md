@@ -12,7 +12,7 @@ title: 💪 Tir à la corde
 subtitle: Par équipe de 3 robots, renversez vos adversaires !
 description: Par équipe de 3 robots, tirez jusqu'a renverser vos adversaires!
 
-todo: 50
+todo: 10
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

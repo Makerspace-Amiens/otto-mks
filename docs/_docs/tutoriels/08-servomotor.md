@@ -12,10 +12,8 @@ title: 08 - Servomoteurs
 subtitle: Piloter un servomoteur pour le robot
 description: Cette page va vous accompagner dans l'utilisation des servomoteurs sur le Otto-MKS
 
-time: 2
-difficulty: 1
-
-todo: 95
+time: 3
+difficulty: 2
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

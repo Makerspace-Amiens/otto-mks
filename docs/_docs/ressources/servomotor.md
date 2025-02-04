@@ -15,7 +15,6 @@ manufacturer:
   - name: DFROBOT
     link: "https://www.dfrobot.com/product-1579.html?srsltid=AfmBOorem6wkmSQTQ24bbT6QkenmrU4cvXBhQ-I-eWCW0snRm54IimzZ"
 
-todo: 50
 author: Adrien BRACQ
 ---
 

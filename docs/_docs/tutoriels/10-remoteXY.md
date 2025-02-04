@@ -15,8 +15,6 @@ description: Cette page va vous accompagner dans l'utilisation de RemoteXY vous 
 time: 3
 difficulty: 2
 
-todo: 10
-
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 
@@ -26,7 +24,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 [RemoteXY](https://remotexy.com) simplifie ainsi la création d'applications interactives sans nécessiter de compétences avancées en développement mobile.
 
-**Attention** : L'application [RemoteXY](https://remotexy.com) est gratuite, mais elle est limitée à un maximum de 5 éléments. Pour ajouter davantage d'éléments, vous devrez passer à la version Pro, qui est payante.
+{% include message.html title="Attention" message="L'application [RemoteXY](https://remotexy.com) est gratuite, mais elle est limitée à un maximum de 5 éléments. Pour ajouter davantage d'éléments, vous devrez passer à la version Pro, qui est payante." status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Principe de fonctionnement
 

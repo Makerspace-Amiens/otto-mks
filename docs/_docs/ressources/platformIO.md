@@ -13,6 +13,5 @@ title: PlatformIO
 subtitle: Développez, compilez et déployez vos projets embarqués efficacement
 description: Développez, compilez et déployez vos projets embarqués efficacement
 
-todo: 10
 author: Adrien BRACQ
 ---

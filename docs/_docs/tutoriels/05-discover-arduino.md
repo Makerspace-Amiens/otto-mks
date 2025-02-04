@@ -12,10 +12,8 @@ title: 05 - Démarrer avec Arduino !
 subtitle: Présentation du contexte et installation des outils
 description: Cette page va vous accompagner dans la découverte d'Arduino et l'installation des différents outils.
 
-time: 1
-difficulty: 1
-
-todo: 95
+time: 3
+difficulty: 2
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

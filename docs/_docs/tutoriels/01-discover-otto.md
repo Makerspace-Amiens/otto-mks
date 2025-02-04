@@ -16,7 +16,5 @@ external_link: /pages/informations/
 time: 1
 difficulty: 1
 
-todo: 10
-
 author: Adrien BRACQ & Rémi LACOMBE
 ---

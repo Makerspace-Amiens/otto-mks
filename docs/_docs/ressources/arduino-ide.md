@@ -13,6 +13,4 @@ subtitle: Environnement de développement dédié au firmware Arduino
 description: Environnement de développement dédié au firmware Arduino
 external_link: https://www.arduino.cc/en/software
 
-todo: 10
-author: Adrien BRACQ
 ---

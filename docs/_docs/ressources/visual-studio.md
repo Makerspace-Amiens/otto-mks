@@ -12,6 +12,7 @@ external_link: https://code.visualstudio.com
 title: Visual Studio
 subtitle: Un environnement de développement moderne et personnalisable
 description: Un environnement de développement moderne et personnalisable
-todo: 10
+
+
 author: Adrien BRACQ
 ---

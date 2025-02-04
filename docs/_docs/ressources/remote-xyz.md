@@ -13,6 +13,5 @@ title: RemoteXYZ
 subtitle: Contrôlez vos projets microcontrôleurs facilement
 description: Contrôlez vos projets microcontrôleurs facilement
 
-todo: 10
 author: Adrien BRACQ
 ---

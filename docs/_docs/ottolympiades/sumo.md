@@ -12,7 +12,7 @@ title: ⚔️ Otto Sumo
 subtitle: Poussez le robot adverse en dehors de la zone de jeu !
 description: Poussez le robot adverse en dehors de la zone de jeu ! 
 
-todo: 50
+todo: 10
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---

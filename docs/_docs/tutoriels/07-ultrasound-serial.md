@@ -13,9 +13,7 @@ subtitle: Récupérer une information et l'afficher
 description: Cette page va vous accompagner dans l'utilisation de la liaison série et du capteur ultrason.
 
 time: 3
-difficulty: 1
-
-todo: 10
+difficulty: 2
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---
