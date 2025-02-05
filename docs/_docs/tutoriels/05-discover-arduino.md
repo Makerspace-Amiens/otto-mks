@@ -48,7 +48,7 @@ Dans notre cas par exemple, nous allons utiliser une carte spéficique au projet
 - Une consommation énergétique faible.
 - Une compatibilité avec les bibliothèques Arduino.
 
-Vous pouvez retrouver une description plus complète de la carte [sur la page dédiée.](../05-discover-otto-pcb)
+Vous pouvez retrouver une description plus complète de la carte [sur la page dédiée.](../../tutoriels/05-discover-otto-pcb)
 
 ---
 

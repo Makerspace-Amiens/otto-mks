@@ -70,7 +70,7 @@ image = "printerlab.png"
 title = "Impression"
 content = "Copiez le fichier téléchargé sur une **clé USB**, rendez-vous au **PrinterLab** et suivez [ce tutoriel](https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece/)" %}
 
-Pendant que vos pièces s'impriment, suivez attentivement les prochains tutoriels, à commencer par la **découverte de la carte électronique** ! [**04 - Découvrez la carte du Otto**](/docs/tutoriels/04-discover-otto-pcb)
+Pendant que vos pièces s'impriment, suivez attentivement les prochains tutoriels, à commencer par la **découverte de la carte électronique** ! [**04 - Découvrez la carte du Otto**](../../tutoriels/04-discover-otto-pcb/)
 
 ---
 

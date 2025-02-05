@@ -11,7 +11,7 @@ type: tuto
 title: 01 - Découvrez Otto !
 subtitle: Découvrez le robot Otto
 description: Vous découvrerez ici le robot Otto, son histoire et les raisons de son succès !
-external_link: /pages/informations/
+external_link: https://makerspace-amiens.fr/otto-mks/pages/informations/
 
 time: 1
 difficulty: 1

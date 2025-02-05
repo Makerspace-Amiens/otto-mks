@@ -20,7 +20,7 @@ difficulty: 2
 ---
 Maintenant que vos pièces sont imprimées, suivez ce guide pour assembler votre Otto-MKS ! 
 
-{% include message.html title="Attention" message="**Avant d'assembler votre robot**, et pour que le montage se passe au mieux, vous devez avoir suivi l'ensemble des [**tutoriels précédents**](/pages/tutoriels/) !
+{% include message.html title="Attention" message="**Avant d'assembler votre robot**, et pour que le montage se passe au mieux, vous devez avoir suivi l'ensemble des [**tutoriels précédents**](../../pages/tutoriels/) !
 
 **Prenez votre temps** à chaque étape et vérifiez régulièrement votre assemblage, notamment concernant le **type de vis** à utiliser." status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
@@ -53,7 +53,7 @@ title="Étape 3 - Assemblage des palonniers"
 content="**Découpez** deux palonniers comme indiqué, puis insérez-les dans les pièces **Leg**.  
 Enfoncez les palonniers jusqu'au **fond des emplacements prévus.**" %}
 
-{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 {% include message.html title="Attention" message="Les servomoteurs sont **très fragiles**, **évitez au maximum de forcer manuellement leur rotation**, au risque d'endommager les pièces mécaniques internes !" status="is-danger" dismissable="true" icon="fas fa-solid fa-skull-crossbones" %}
 
@@ -62,7 +62,7 @@ greyBackground = false
 image = "step 4.png"
 title="Étape 4 - Assemblage des jambes"
 
-content="Branchez les deux servomoteurs sur la **carte électronique** et exécutez votre [code de **positionnement à 90°**](/docs/tutoriels/08-servomotor/).  
+content="Branchez les deux servomoteurs sur la **carte électronique** et exécutez votre [code de **positionnement à 90°**](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/08-servomotor/).  
 Insérez ensuite les **jambes** sur l'**axe des servomoteurs**, dans la **position indiquée**.
 Débranchez les servomoteurs et vérifiez que les **butées** se trouvent bien à **90° de part et d'autre de la position neutre**.
 " %}
@@ -93,7 +93,7 @@ content="Vissez fermement les palonniers.
 **⚠️ Vérifiez le type de vis**
 " %}
 
-{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+{% include message.html title="Attention" message="Pour la prochaine étape, vous aurez besoin du code réalisé précédemment dans [**le tutoriel sur les servomoteurs**](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/08-servomotor/), permettant de les positionner à **90°**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 {% include step-tuto.html 
 greyBackground = false
@@ -101,7 +101,7 @@ image = "step 8A.png"
 image_2 = "step 8B.png"
 title="Étape 8 - Assemblage des servomoteurs des pieds"
 
-content="Branchez les deux servomoteurs sur la **carte électronique** et exécutez votre [code de **positionnement à 90°**](/docs/tutoriels/08-servomotor/).  
+content="Branchez les deux servomoteurs sur la **carte électronique** et exécutez votre [code de **positionnement à 90°**](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/08-servomotor/).  
   
 Insérez ensuite les **servomoteurs** dans les pièces **Foot** dans la **position indiquée**.
   
