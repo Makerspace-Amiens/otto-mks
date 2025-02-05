@@ -1,5 +1,5 @@
 ---
-title: Otto
+title: OTTO-MKS
 subtitle: Version MakerSpace du robot open-source Otto
 layout: page
 hero_height: is-large

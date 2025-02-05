@@ -20,7 +20,7 @@ difficulty: 2
 ---
 Maintenant que vos pièces sont imprimées, suivez ce guide pour assembler votre Otto-MKS ! 
 
-{% include message.html title="Attention" message="**Avant d'assembler votre robot**, et pour que le montage se passe au mieux, vous devez avoir suivi l'ensemble des [**tutoriels précédents**](../../pages/tutoriels/) !
+{% include message.html title="Attention" message="**Avant d'assembler votre robot**, et pour que le montage se passe au mieux, vous devez avoir suivi l'ensemble des [**tutoriels précédents**](../pages/tutoriels/) !
 
 **Prenez votre temps** à chaque étape et vérifiez régulièrement votre assemblage, notamment concernant le **type de vis** à utiliser." status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 

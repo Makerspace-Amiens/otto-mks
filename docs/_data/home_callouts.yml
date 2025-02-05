@@ -1,23 +1,31 @@
 style: is-light
 height: is-medium
 items:
+
   - title: Informations générales
     icon: fa-info-circle
     description: >
       Retrouvez les informations sur le projet
     call_to_action_name: Informations
     call_to_action_link: /pages/informations
-
-  - title: Le materiel
-    icon: fa-toolbox
-    description: >
-      Une description et une documentation de l'ensembles des machines et du materiel est disponible ici.
-    call_to_action_name: Voir le materiel
-    call_to_action_link: /pages/materiels
-
+  
   - title: Tutoriels
     description: >
       Retrouvez les tutoriels pour réaliser votre otto
     icon: fa-cogs
-    call_to_action_name: Voir les projets
+    call_to_action_name: Voir les tutoriels
     call_to_action_link: /pages/tutoriels
+
+  - title: Ressources
+    description: >
+      Ressources externes pour aller plus loin
+    icon: fa-compass
+    call_to_action_name: Voir les ressources
+    call_to_action_link: /pages/ressources
+
+  - title: Ottolympiades
+    description: >
+      Règles et information sur le tournoi !
+    icon: fa-trophy
+    call_to_action_name: Voir les règles
+    call_to_action_link: /pages/ottolympiades
