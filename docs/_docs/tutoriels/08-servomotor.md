@@ -144,7 +144,7 @@ icon="fas fa-pen" %}
 
 ## Créer des séquences
 
-Vous allez devoir imaginer des séquences de marche et bien d'autres pour votre robot. Afin de faire cela, nous allons utiliser des foncitons comme vu dans les chapitres précédentS. L'objectif par la suite est donc de mettre au point des séquences de marche et de les tester. Poru cela, vosu pouvez par exemple commencer par créer une fonction `void walk()` permettant au robot de marcher. 
+Vous allez devoir imaginer des séquences de marche et bien d'autres pour votre robot. Afin de faire cela, nous allons utiliser des foncitons comme vu dans les chapitres précédentS. L'objectif par la suite est donc de mettre au point des séquences de marche et de les tester. Pour cela, vosu pouvez par exemple commencer par créer une fonction `void walk()` permettant au robot de marcher. 
 
 ```cpp
 void walk(){

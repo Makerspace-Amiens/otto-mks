@@ -61,7 +61,7 @@ Afin de développer des projets sur des cartes compatibles avec l'environnement 
 
 Si la seconde solution est plus avancée et permet de travailler dans des environnements de développement plus complets, favorisant ainsi une approche plus professionnelle, c'est bien la première solution que nous étudierons ici dans un contexte d'initiation. 
 
-Gardez à l'esprit que le code et le langage restent les mêmes dans tous les cas et qu'il vosu est tout a fait possible de passer à un autre IDE par la suite.
+Gardez à l'esprit que le code et le langage restent les mêmes dans tous les cas et qu'il vous est tout a fait possible de passer à un autre IDE par la suite.
 
 ### Mise en place de l'environnement de développement
 

@@ -64,16 +64,17 @@ content="Batterie **rechargeable en USB-C** aux dimensions standards d'une **pil
 
 ## Ottolympiades
 
-Par groupe de 3, vous devrez fabriquer votre propre Otto-MKS grâce aux tutoriels et ressources de ce site !
-En fin d'année, lors de la journée des projets, un grand tournoi sera organisé pour tester vos robots à travers plusieurs épreuves !
+Par **groupe de 3**, vous devrez fabriquer votre propre **OTTO-MKS** grâce aux **tutoriels** et **ressources** de ce site !
+En fin d'année, lors de la **journée des projets**, un grand **tournoi** sera organisé pour tester vos robots à travers plusieurs épreuves !
 
 {%
   include card_collections.html
+  title="Epreuves"
   description="Testez votre robot sur tout les terrains !"
   type="ottolympiades"
 %}
 
-Pour tenter de remporter ces épreuves, vous devrez faire preuve de créativité en modifiant vos robots comme vous le voudrez en suivant les règles énoncées ici :
+Pour tenter de remporter ces épreuves, vous devrez faire preuve de **créativité** en modifiant vos robots comme vous le voudrez en suivant les règles énoncées ici :
 
 {% include message.html title="Bientôt !" message="Work in progress..Bientôt disponible !"
 status="is-warning" dismissable="false" icon="fas fa-exclamation-triangle" %}
