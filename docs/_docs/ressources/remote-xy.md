@@ -9,7 +9,7 @@ doc_header: true
 type: ressources
 external_link: https://remotexy.com
 
-title: RemoteXYZ
+title: RemoteXY
 subtitle: Contrôlez vos projets microcontrôleurs facilement
 description: Contrôlez vos projets microcontrôleurs facilement
 
