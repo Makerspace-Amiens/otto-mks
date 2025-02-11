@@ -13,9 +13,11 @@ subtitle: Présentation et règlement du tournoi Otto !
 
 ## Présentation
 
-Lors de la journée des projet, le **4 mai**, chacun des groupe participera aux **Ottolympiades**, un tournoi de robotique organisé au sein d'UniLaSalle Amiens, pour tester vos robots sur tous les terrains !
+Lors de la journée des projets, le **4 juin**, chacun des groupes participera aux **Ottolympiades**, un tournoi de robotique organisé au sein d'UniLaSalle Amiens, pour tester vos robots sur tous les terrains !
 
 Vous devrez **adapter**, **modifier**, **bricoler** votre robot **OTTO-MKS** pour tenter de remporter les différentes épreuves !
+
+Un socle de règles est commun à toutes les épreuves, et votre robot devra, avant de pouvoir participer, passer à un stand d'homologation pour vérifier qu'il est conforme.
 
 ## Homologation
 {%
