@@ -64,6 +64,8 @@ status = "is-info"
 dismissable = "true" 
 icon = "fas fa-exclamation" %}
 
+{% include message.html title="Attention" message="Toutes les pièces s'impriments **sans support**, vérifiez qu'ils sont bine désactivés dans OrcaSlicer." status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
 {% include step-tuto.html 
 greyBackground = false
 image = "printerlab.png"

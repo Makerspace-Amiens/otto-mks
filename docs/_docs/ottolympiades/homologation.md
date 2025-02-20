@@ -15,6 +15,9 @@ description: Ensemble des règles à respecter pour participer aux épreuves !
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 
+{% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
+**V1.2 20/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
 ## Règles de conception
 
 {% include step-tuto.html
@@ -51,7 +54,7 @@ image="otto_mod.png" %}
 
 {% include step-tuto.html
 greyBackground = true
-title = "Arrêt d'urgence" 
+title = "Marche / Arrêt" 
 content="
 L'**interrupteur** d'alimentation doit rester accessible en tout temps par l'arbitre afin d'arrêter le robot en cas de situation de danger pour **lui-même**, les **autres robots**, ou les **éléments de jeu**."
 image="otto_switch.png" %}
@@ -79,3 +82,9 @@ Aucun langage de programmation n'est imposé, cependant, la logique des **progra
 
 L'utilisation de l'intelligence artificielle n'est **pas interdite** ; mais servez-vous-en comme d'une **aide à l'apprentissage**."
 image="otto_program.png" %}
+
+{% include step-tuto.html
+greyBackground = true
+title = "Arbitrage" 
+content="L'arbitre s'engage a avoir connaissance du règlement, durant les phases de match, sa position et ses décisions doivent donc être respectées."
+image="otto_referee.png" %}
