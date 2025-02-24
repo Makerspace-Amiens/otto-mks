@@ -56,8 +56,6 @@ En fonction du **nombre de participants**, un nombre variable de robots sera qua
 - **2, 4, 8 ou plus** des meilleurs robots seront sélectionnés.
 - Les phases finales se dérouleront en **duels sur des pistes parallèles**.
 - Le premier à franchir la ligne d’arrivée remporte son duel et avance au tour suivant.
-- Si seulement **deux robots** sont qualifiés, une **finale directe** aura lieu.
-- En cas de nombre impair, des repêchages ou des tours préliminaires pourront être organisés.
 
 🏆 **Le vainqueur sera l’équipe qui remportera la finale en un temps record !**"
 image="otto_winner.png" %}
