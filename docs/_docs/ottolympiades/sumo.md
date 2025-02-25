@@ -17,9 +17,22 @@ todo: 10
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.2 24/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
+## Présentation
+
+L’épreuve **Otto Sumo** est un combat de robots autonomes où l’objectif est de pousser l’adversaire **hors de l’arène**. Deux robots s’affrontent sur une **plateforme circulaire** surélevée de **45 cm de diamètre**. Le premier robot à sortir de la zone de combat perd la manche. Aucun contrôle manuel n’est autorisé, les robots doivent agir en **totale autonomie**.
 
 ## Règlement
+
+{% include step-tuto.html
+greyBackground = true
+title = "Conditions et contraintes"
+content="
+- Le robot est **autonome** aucun contrôle à distance n’est autorisé.
+- **Pas de coups violents** : les robots doivent pousser, pas endommager le robot adverse.
+- **Aucun élément détachable** : les robots ne doivent pas perdre de pièces pendant le combat."
+image="otto_wake.png" %}
 
 {% include step-tuto.html
 greyBackground = true
@@ -43,15 +56,6 @@ image_2="otto_sumo_fall.png"%}
 
 {% include step-tuto.html
 greyBackground = true
-title = "Conditions et contraintes"
-content="
-- Le robot est **autonome** aucun contrôle à distance n’est autorisé.
-- **Pas de coups violents** : les robots doivent pousser, pas endommager le robot adverse.
-- **Aucun élément détachable** : les robots ne doivent pas perdre de pièces pendant le combat."
-image="otto_wake.png" %}
-
-{% include step-tuto.html
-greyBackground = true
 title = "Finale et classement"
 content="
 Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre trois et cinq matchs : 
@@ -59,16 +63,17 @@ Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de pa
 - Les **meilleurs robots** avancent aux tours suivants jusqu’à la finale.
 - En cas de match nul répété, l’arbitre peut proposer une **modification des règles** (zone réduite, timer...).  
 🏆 **Le champion sera le dernier robot encore debout !**"
-image="otto_sumo_podium.png" %}
+image="victory.png" %}
 
 {% include step-tuto.html
 greyBackground = true
 title = "Éléments de jeu"
-content=""
-image="otto_sumo_arena.png" %}
+content="**A venir...**" %}
+
+## Autres épreuves
 
 {%
   include card_collections.html
-  description="Autres épreuves"
+  description="Testez votre robot sur tout les terrains !"
   type="ottolympiades"
 %}

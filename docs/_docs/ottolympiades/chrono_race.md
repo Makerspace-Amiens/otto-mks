@@ -16,9 +16,24 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.0 13/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
+## Présentation
+
+L'épreuve **Chrono Challenge** est une course de vitesse où les robots doivent parcourir une piste de **80 cm** le plus rapidement possible, sans intervention humaine. Le parcours est bordé de murs verticaux pour garantir une trajectoire rectiligne.
 
 ## Règlement
+
+{% include step-tuto.html
+greyBackground = true
+title = "Conditions et contraintes"
+content="
+- Le robot est **autonome**, aucun contrôle à distance n’est autorisé.
+- Le robot ne doit **pas bouger** avant le retrait de la planche.
+- Si le robot s’arrête avant la ligne, l’essai est annulé.
+- Aucun obstacle ne sera placé sur la piste, mais les irrégularités du sol peuvent influencer la course.
+- Chaque équipe dispose d'autant d'essai que souhaité (dans la limite de disponibilité des pistes), seul le **meilleur temps** sera retenu."
+image="otto_wake.png" %}
 
 {% include step-tuto.html
 greyBackground = true
@@ -35,18 +50,8 @@ content="
    - Le chrono s'arrête quand le robot franchi la ligne d'arrivée située à **80 cm** !  
    
 "
-image="otto_wall.png" %}
-
-{% include step-tuto.html
-greyBackground = true
-title = "Conditions et contraintes"
-content="
-- Le robot est **autonome**, aucun contrôle à distance n’est autorisé.
-- Le robot ne doit **pas bouger** avant le retrait de la planche.
-- Si le robot s’arrête avant la ligne, l’essai est annulé.
-- Aucun obstacle ne sera placé sur la piste, mais les irrégularités du sol peuvent influencer la course.
-- Chaque équipe dispose d'autant d'essai que souhaité (dans la limite de disponibilité des pistes), seul le **meilleur temps** sera retenu."
-image="otto_wake.png" %}
+image="otto_wall.png"
+image_2="otto_race_solo.png"%}
 
 {% include step-tuto.html
 greyBackground = true
@@ -58,14 +63,13 @@ En fonction du **nombre de participants**, un nombre variable de robots sera qua
 - Le premier à franchir la ligne d’arrivée remporte son duel et avance au tour suivant.
 
 🏆 **Le vainqueur sera l’équipe qui remportera la finale en un temps record !**"
-image="otto_winner.png" %}
+image="victory.png" %}
 
 {% include step-tuto.html
 greyBackground = true
-title = "Elements de jeu"
-content="**A venir**
-"
-image="otto_run.png" %}
+title = "Élements de jeu"
+content="**A venir...**"
+ %}
 
 ## Autres épreuves
 

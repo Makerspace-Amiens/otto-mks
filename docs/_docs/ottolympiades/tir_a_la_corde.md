@@ -17,7 +17,11 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.0 24/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
+## Présentation
+
+L'épreuve **Tire à la corde** met en compétition deux équipes de trois robots reliés par des section de corde, qui doivent exercer une traction pour amener un marqueur rouge de leur côté de la ligne centrale. L'épreuve se déroule en **mode télécommandé**, demandant réflexion et coordination pour remporter la victoire.
 
 ## Règlement
 
@@ -56,17 +60,19 @@ content="
 Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre trois et cinq matchs : 
 - **2, 4 ou 8** des équipes ayant gagné le plus de matchs seront sélectionnés.
 - Les **meilleurs équipe de 3 robots** avancent aux tours suivants jusqu’à la finale.
-  🏆 **Les vainqueurs sont les membres de l'équipe ayant réussi à faire glisser le marqueur rouge sur sa moitié du terrain lors de la finale !** " image="otto_tire_podium.png" %}
+  🏆 **Les vainqueurs sont les membres de l'équipe ayant réussi à faire glisser le marqueur rouge sur sa moitié du terrain lors de la finale !** " image="victory.png" %}
 
 {% include step-tuto.html
 greyBackground = true
 title = "Éléments de jeu"
-content=""
-image="otto_tire_arena.png" %}
+content="**A venir...**" %}
+
+## Autres épreuves
 
 {%
-include card_collections.html
-description="Autres épreuves"
-type="ottolympiades"
+  include card_collections.html
+  description="Testez votre robot sur tout les terrains !"
+  type="ottolympiades"
 %}
+
 
