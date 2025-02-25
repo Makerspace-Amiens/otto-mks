@@ -9,8 +9,8 @@ component_toc: true
 doc_header: true
 type: ottolympiades
 
-title: 🧵 Tire à la corde
-subtitle: Deux équipes de 3 robots s'affrontent pour faire glisser le marqueur !
+title: 💪 Tire à la corde
+subtitle: Deux équipes de 3 robots s'affrontent pour tirer les adversaires de leur côté !
 description: En télécommandé, deux équipes de robots tirent sur une corde pour faire passer le marqueur rouge de leur côté de la ligne.
 author: Adrien BRACQ & Rémi LACOMBE
 
@@ -27,7 +27,7 @@ Cette épreuve se joue en équipes de 3 robots qui seront à composer avant les 
 greyBackground = true
 title = "Conditions et contraintes"
 content="
-- Les robots d'une équipe sont reliés par une **corde** attachée à un **élastique** placé autour de chaque robot.
+- Les robots d'une équipe sont tout trois reliés par des **cordes** de 7 cm attachée à un **élastique** placé autour du corps de chaque robot.
 - Au bout de cette corde, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
 - L'épreuve se joue en mode télécommandé.
   "
@@ -37,6 +37,9 @@ content="
 greyBackground = true
 title = "Déroulement de l’épreuve"
 content="
+- **Placement initial** :
+  - Le premier robot se positionne derrière la ligne de départ, les deux autres robot sont positionés derrière, cordes tendues.
+  - Le placement des élastiques sur le corps des robots est vérifié par l'arbitre
 - **Début du match** :
   - L'épreuve se joue en **mode télécommandé**.
   - Le match débute lorsque l'arbitre donne les signal de départ.
