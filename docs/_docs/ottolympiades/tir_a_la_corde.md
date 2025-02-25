@@ -31,7 +31,7 @@ content="
 - Au bout de cette corde, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
 - L'épreuve se joue en mode télécommandé.
   "
-  image="otto_tire_rules.png" %}
+  image="otto_pull_linked.png" %}
 
 {% include step-tuto.html
 greyBackground = true
@@ -46,7 +46,8 @@ content="
 - **Fin du match** :
   - Le match se termine dès qu'une équipe parvient à faire glisser le **marqueur rouge**, situé au milieu de la corde, de son côté de la **ligne centrale**.
     "
-    image="otto_tire_start.png" %}
+    image="otto_pull_chain.png" 
+    image_2="otto_pull_chain_win.png"%}
 
 {% include step-tuto.html
 greyBackground = true
