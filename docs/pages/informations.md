@@ -81,6 +81,17 @@ status="is-warning" dismissable="false" icon="fas fa-exclamation-triangle" %}
 
 **Imaginez**, **testez**, **itèrez**, **programmez**, ajoutez **des bras**, **des capteurs**, **des lumières**...en bref appropriez vous le projet Otto-MKS !
 
+## Attendus académiques
+
+Sur ce projet de première année, vous serez notez sur ces livrables :
+
+- Un robot fonctionnel
+- Une vidéo de 1min format **portrait** présentant **professionnellement** votre projet
+- Le fichier OnShape de votre OTTO-MKS modifié
+- Un **rapport de projet** OU un **site web** de documentation
+- Votre participation aux **Ottolympiades**
+
+
 ## Ressources
 
 - **Site officiel** : [Otto DIY](https://www.ottodiy.com/)
