@@ -12,8 +12,6 @@ title: ⚔️ Otto Sumo
 subtitle: Deux robots, un duel, un seul reste debout !
 description: Poussez le robot adverse en dehors de l’arène dans un combat 100% autonome ! 
 
-todo: 10
-
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
@@ -21,7 +19,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 ## Présentation
 
-L’épreuve **Otto Sumo** est un combat de robots autonomes où l’objectif est de pousser l’adversaire **hors de l’arène**. Deux robots s’affrontent sur une **plateforme circulaire** surélevée de **45 cm de diamètre**. Le premier robot à sortir de la zone de combat perd la manche. Aucun contrôle manuel n’est autorisé, les robots doivent agir en **totale autonomie**.
+L’épreuve **Otto Sumo** est un combat de robots autonomes où l’objectif est de faire tomber l’adversaire **hors de l’arène**. Deux robots s’affrontent sur une **plateforme circulaire** surélevée de **45 cm de diamètre**. Le premier robot à sortir de la zone de combat perd la manche. Aucun contrôle manuel n’est autorisé, les robots doivent agir en **totale autonomie**.
 
 ## Règlement
 
@@ -39,10 +37,11 @@ greyBackground = true
 title = "Déroulement de l’épreuve"
 content="
 - **Placement initial** :
-   - Les robots sont disposés **face à face** sur un **disque surélevé de 45 cm de diamètre**.
+   - Les robots sont disposés **face à face** et éteints sur un **disque surélevé de 45 cm de diamètre**.
    - Ils sont placés à **20 cm l’un de l’autre** derrière une **ligne de départ**.
 - **Début du match** :
    - Une **planche est placée** entre les deux robots pour bloquer leurs capteurs.
+   - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force.
    - **L’arbitre lève la planche** pour lancer l’épreuve.
    - Les robots doivent démarrer **de manière autonome**.
 - **Fin du match** :

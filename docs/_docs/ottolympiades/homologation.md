@@ -16,14 +16,14 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.2 20/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 27/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Règles de conception
 
 {% include step-tuto.html
 greyBackground = true
 title = "Dimensions"
-content="Premièrement, votre robot devra tenir dans un **volume** de :
+content="Premièrement, votre robot devra tenir, actionneurs déployés au maximum, dans un **volume** de :
 
 **Largeur : 150 mm**  
 **Longueur : 150 mm**  

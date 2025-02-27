@@ -63,7 +63,8 @@ En fonction du **nombre de participants**, un nombre variable de robots sera qua
 - Le premier à franchir la ligne d’arrivée remporte son duel et avance au tour suivant.
 
 🏆 **Le vainqueur sera l’équipe qui remportera la finale en un temps record !**"
-image="victory.png" %}
+image = "otto_race_winner.png"
+image_2="victory.png" %}
 
 {% include step-tuto.html
 greyBackground = true
