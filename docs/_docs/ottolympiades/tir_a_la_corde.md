@@ -9,7 +9,7 @@ component_toc: true
 doc_header: true
 type: ottolympiades
 
-title: 💪 Tire à la corde
+title: 💪 Tir à la corde
 subtitle: Deux équipes de 3 robots s'affrontent pour tirer les adversaires de leur côté !
 description: En télécommandé, deux équipes de robots tirent sur une corde pour faire passer le marqueur rouge de leur côté de la ligne.
 author: Adrien BRACQ & Rémi LACOMBE
@@ -21,7 +21,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 ## Présentation
 
-L'épreuve **Tire à la corde** met en compétition deux équipes de trois robots reliés par des section de corde, qui doivent exercer une traction pour amener un marqueur rouge de leur côté de la ligne centrale. L'épreuve se déroule en **mode télécommandé**, demandant réflexion et coordination pour remporter la victoire.
+L'épreuve **Tir à la corde** met en compétition deux équipes de trois robots reliés par des section de corde, qui doivent exercer une traction pour amener un marqueur rouge de leur côté de la ligne centrale. L'épreuve se déroule en **mode télécommandé**, demandant réflexion et coordination pour remporter la victoire.
 
 ## Règlement
 

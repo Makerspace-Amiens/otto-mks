@@ -15,7 +15,7 @@ description: Poussez le robot adverse en dehors de l’arène dans un combat 100
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.4 03/03/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -38,7 +38,7 @@ title = "Déroulement de l’épreuve"
 content="
 - **Placement initial** :
    - Les robots sont disposés **face à face** et éteints sur un **disque surélevé de 45 cm de diamètre**.
-   - Ils sont placés à **20 cm l’un de l’autre** derrière une **ligne de départ**.
+   - Ils sont placés à **10 cm l’un de l’autre** derrière une **ligne de départ**.
 - **Début du match** :
    - Une **planche est placée** entre les deux robots pour bloquer leurs capteurs.
    - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force.
