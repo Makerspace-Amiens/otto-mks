@@ -16,11 +16,11 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.4 10/03/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
-L'épreuve **Chrono Challenge** est une course de vitesse où les robots doivent parcourir une piste de **80 cm** le plus rapidement possible, sans intervention humaine. Le parcours est bordé de murs verticaux pour garantir une trajectoire rectiligne.
+L'épreuve **Chrono Challenge** est une course de vitesse où les robots doivent parcourir une piste de **1 m** le plus rapidement possible, sans intervention humaine. Le parcours est bordé de murs verticaux pour garantir une trajectoire rectiligne.
 
 ## Règlement
 
@@ -47,7 +47,7 @@ content="
    - Lorsque la planche est **retirée**, le robot doit démarrer et avancer de manière **autonome**.  
 
 - **Fin de l'épreuve** :
-   - Le chrono s'arrête quand le robot franchi la ligne d'arrivée située à **80 cm** !  
+   - Le chrono s'arrête quand le robot franchi la ligne d'arrivée située à **1 m** !  
    
 "
 image="otto_wall.png"
