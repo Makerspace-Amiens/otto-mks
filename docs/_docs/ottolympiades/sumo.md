@@ -68,7 +68,7 @@ image="victory.png" %}
 greyBackground = true
 title = "Éléments de jeu"
 content="**A venir...**" %}
-
+{% include 3d-model.html model="otto_sumo_arena.gltf" poster="poster.webp" %}
 ## Autres épreuves
 
 {%
