@@ -30,11 +30,11 @@ greyBackground = true
 title = "Conditions et contraintes"  
 content="  
 - L’épreuve se joue en **mode télécommandé**.  
-- Chaque équipe dispose d'autant d'essais que souhaité (dans la limite de disponibilité des pistes), seul le **meilleur temps** sera retenu.  
+- Chaque équipe dispose d'autant d'essais que souhaité (dans la limite de disponibilité de la piste), seul le **meilleur temps** sera retenu.  
 - Le robot doit **rester dans les limites du parcours**.  
 - **Chaque cône tombé entraîne une pénalité de 5 secondes ajoutée au temps final.**  
 "  
-image="otto_obstacle_rules.png" %}  
+image="otto_wake.png" %}  
 
 ## Déroulement de l’épreuve  
 
@@ -51,10 +51,7 @@ content="
   - Le chronomètre s’arrête lorsque le robot **franchit la ligne d’arrivée**.  
   - Les pénalités sont ajoutées au temps total.  
 "  
-image="otto_obstacle_start.png"  
-image_2="otto_obstacle_finish.png" %}  
-
-## Classement  
+image="otto_obstacle_start.png" %}  
 
 {% include step-tuto.html  
 greyBackground = true  
