@@ -10,7 +10,7 @@ type: ottolympiades
 
 title: ⏱️ Chrono challenge
 subtitle: Votre robot, une ligne droite, faites le meilleur temps !
-description: Faites marcher votre robot le plus vite possible sur une piste contrainte par des murs verticaux !
+description: Faites marcher votre robot le plus vite possible sur une piste de 1m !
 
 author: Adrien BRACQ & Rémi LACOMBE
 ---
@@ -20,7 +20,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 
 ## Présentation
 
-L'épreuve **Chrono Challenge** est une course de vitesse où les robots doivent parcourir une piste de **1 m** le plus rapidement possible, sans intervention humaine. Le parcours est bordé de murs verticaux pour garantir une trajectoire rectiligne.
+L'épreuve **Chrono Challenge** est une course de vitesse où les robots doivent parcourir une piste de **1 m** le plus rapidement possible, sans intervention humaine.
 
 ## Règlement
 
