@@ -68,7 +68,12 @@ image="victory.png" %}
 greyBackground = true
 title = "Éléments de jeu"
 content="**A venir...**" %}
+
+---
+
 {% include_relative sumo/sumo_model.html %}
+
+---
 
 ## Autres épreuves
 
