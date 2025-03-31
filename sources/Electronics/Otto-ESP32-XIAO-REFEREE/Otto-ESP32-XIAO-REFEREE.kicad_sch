@@ -3183,7 +3183,7 @@
 		(uuid "ebf1d225-548c-4f69-a9ea-d5a618672863")
 	)
 	(junction
-		(at 78.74 78.74)
+		(at 81.28 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "013f6e4c-6a8b-4f9c-ad56-b559f9d1ccd4")
@@ -3207,13 +3207,13 @@
 		(uuid "acde33f4-f2fe-48dc-b095-6dc197beca5d")
 	)
 	(junction
-		(at 78.74 73.66)
+		(at 81.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b39111d0-55aa-4427-8614-fdedf36f1f3b")
 	)
 	(junction
-		(at 74.93 73.66)
+		(at 77.47 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd0d8c75-9171-4c0b-a373-15eff074b8c8")
@@ -3243,7 +3243,7 @@
 		(uuid "dc0e1cfd-480a-402f-868d-c92ae2afbd0d")
 	)
 	(junction
-		(at 74.93 78.74)
+		(at 77.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3370ffd-b947-48bf-9175-bb666a4d63e2")
@@ -3257,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "00f5e7e5-0b1c-45fb-b4f6-9f5513620762")
-	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 118.11 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071f04fa-76e4-475c-a729-783968a5be0f")
 	)
 	(wire
 		(pts
@@ -3320,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 78.74 73.66)
+			(xy 77.47 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 74.93 80.01)
+			(xy 77.47 78.74) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3440,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 82.55 73.66)
+			(xy 81.28 73.66) (xy 85.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3570,23 +3560,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 82.55 78.74)
+			(xy 81.28 78.74) (xy 85.09 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9a41ee2-7984-4ce9-a285-110f25652809")
-	)
-	(wire
-		(pts
-			(xy 104.14 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e676106a-29a6-4bb8-a6a9-09c383aa4661")
 	)
 	(polyline
 		(pts
@@ -3600,7 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 74.93 73.66)
+			(xy 77.47 72.39) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 78.74 78.74)
+			(xy 77.47 78.74) (xy 81.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4090,7 +4070,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 104.14 93.98 180)
+		(at 118.11 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4100,7 +4080,7 @@
 		)
 		(uuid "f6e6b42c-107f-469a-bded-0ffa5d3ec5e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7077 93.98 0)
+			(at 111.6777 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4657,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 78.74 76.2 180)
+		(at 81.28 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4686,7 +4666,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c7046cd-e4c4-4e26-9087-7824829c4aac")
 		(property "Reference" "C6"
-			(at 81.28 74.9235 0)
+			(at 83.82 74.9235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4676,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 81.28 77.4635 0)
+			(at 83.82 77.4635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 78.74 76.2 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +4695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 76.2 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4704,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 76.2 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 80.01 0)
+		(at 77.47 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5105,7 +5085,7 @@
 		(dnp no)
 		(uuid "332b7d7b-7103-4063-99b8-336275ad9db9")
 		(property "Reference" "#PWR019"
-			(at 74.93 86.36 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.994 81.788 0)
+			(at 81.534 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 80.01 0)
+			(at 77.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 80.01 0)
+			(at 77.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 80.01 0)
+			(at 77.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5207,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 44.45 76.2 0)
+		(at 49.53 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5235,7 +5215,7 @@
 		(dnp no)
 		(uuid "357974c8-0cac-4d87-8bfa-5423abd121e6")
 		(property "Reference" "D3"
-			(at 40.894 61.976 0)
+			(at 43.942 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5223,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 40.894 64.516 0)
+			(at 43.942 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5231,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 45.72 83.82 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5241,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 46.99 85.725 0)
+			(at 52.07 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5251,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 44.45 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5414,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 74.93 76.2 180)
+		(at 77.47 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5442,7 +5422,7 @@
 		(dnp no)
 		(uuid "40bf1244-a6fe-4d0f-9116-859dba153d19")
 		(property "Reference" "C5"
-			(at 71.374 66.548 0)
+			(at 73.914 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5432,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.628 79.248 90)
+			(at 74.168 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5441,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 74.93 76.2 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 76.2 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5459,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 74.93 76.2 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 83.82 0)
+		(at 64.77 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5512,7 +5492,7 @@
 		(dnp no)
 		(uuid "454a1d1a-787e-40ab-9a1f-84a063407bb2")
 		(property "Reference" "#PWR016"
-			(at 59.69 90.17 0)
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.754 85.598 0)
+			(at 68.834 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 83.82 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 83.82 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 83.82 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,33 +5614,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 109.22 93.98 90)
+		(lib_id "power:+5V")
+		(at 64.77 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "534c4509-0bb2-4022-bb1c-d2df5a25ebdb")
-		(property "Reference" "R4"
-			(at 109.22 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 109.22 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 109.22 93.98 0)
+		(uuid "4d24094f-cbf6-4d26-abb0-7abfa77895ae")
+		(property "Reference" "#PWR015"
+			(at 64.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,8 +5632,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 93.98 0)
+		(property "Value" "+5V"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,8 +5649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 109.22 93.98 0)
+		(property "Datasheet" ""
+			(at 64.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,16 +5658,88 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "26b20863-1ff9-44de-b09e-5e8318b9ec11")
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "7b9e068a-a154-41f3-88f2-11ab96c6b163")
+			(uuid "d694ea1d-0a5c-48fd-a632-202d97c4d543")
 		)
 		(instances
 			(project "Otto-ESP32-XIAO-REFEREE"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "R4")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c46b3d2-6ada-4507-910f-707f0e8659dc")
+		(property "Reference" "#PWR013"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3267a3-8c55-41fc-87c2-594187e585c7")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5838,7 +5882,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 29.21 76.2 0)
+		(at 34.29 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5846,7 +5890,7 @@
 		(dnp no)
 		(uuid "72fcd7d0-8c9f-4ac5-a490-85f88c893712")
 		(property "Reference" "D2"
-			(at 25.654 61.976 0)
+			(at 28.702 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5898,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 25.654 64.516 0)
+			(at 28.702 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5906,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 30.48 83.82 0)
+			(at 35.56 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5916,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 31.75 85.725 0)
+			(at 36.83 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5926,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 76.2 0)
+			(at 34.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5957,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 59.69 76.2 0)
+		(at 64.77 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5921,7 +5965,7 @@
 		(dnp no)
 		(uuid "740d6c94-af61-4660-88d0-7aaafddd027f")
 		(property "Reference" "D5"
-			(at 56.134 61.976 0)
+			(at 59.182 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5973,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 56.134 64.516 0)
+			(at 59.182 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5981,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 60.96 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5991,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 62.23 85.725 0)
+			(at 67.31 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6001,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 59.69 76.2 0)
+			(at 64.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 83.82 0)
+		(at 49.53 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6063,7 +6107,7 @@
 		(dnp no)
 		(uuid "7597359e-c219-4875-815d-cee01dce845f")
 		(property "Reference" "#PWR014"
-			(at 44.45 90.17 0)
+			(at 49.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.514 85.598 0)
+			(at 53.594 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 83.82 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 83.82 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 82.55 76.2 180)
+		(at 85.09 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6337,7 +6381,7 @@
 		(fields_autoplaced yes)
 		(uuid "831b2175-3915-423c-824b-666f18dabdc2")
 		(property "Reference" "C7"
-			(at 85.09 74.9235 0)
+			(at 87.63 74.9235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6391,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 85.09 77.4635 0)
+			(at 87.63 77.4635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6401,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 82.55 76.2 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 76.2 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6419,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 76.2 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,71 +6507,6 @@
 			(project ""
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9146ce19-d876-4480-aee6-59aef37c9610")
-		(property "Reference" "#PWR020"
-			(at 74.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 79.248 70.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4377ea6b-3e9f-4ebb-be8e-54baacc96aeb")
-		)
-		(instances
-			(project "Otto-ESP32-XIAO-REFEREE"
-				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6805,6 +6784,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 24.13 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73bca09-f82a-4370-b003-08648b308b9f")
+		(property "Reference" "R5"
+			(at 24.13 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 24.13 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54dc95e6-d22f-4ec4-9dcd-567a080dbbb8")
+		)
+		(pin "1"
+			(uuid "9575c327-f00a-453b-abeb-37917153c2d2")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 64.77 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7005,16 +7052,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 68.58 0)
+		(lib_id "power:+5V")
+		(at 77.47 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b32a37d0-fab0-4b91-9b90-5549b5dc825c")
-		(property "Reference" "#PWR011"
-			(at 29.21 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "b12a8c08-7b0c-4715-be2e-9ae835cc016b")
+		(property "Reference" "#PWR020"
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,8 +7070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 33.528 66.548 0)
+		(property "Value" "+5V"
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 68.58 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 68.58 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,8 +7096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,12 +7106,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "92115a9b-eb45-4815-8c52-5414b3334919")
+			(uuid "09f004f2-1454-42ce-b70c-bf8ba1c2f285")
 		)
 		(instances
-			(project "Otto-ESP32-XIAO-Lite"
+			(project "Otto-ESP32-XIAO-REFEREE"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7526,71 +7574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 59.69 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc2072e8-1026-49fe-b212-fef78e0b0c82")
-		(property "Reference" "#PWR015"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 64.008 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccecd18e-e43e-4223-abee-3a5e7fdedeab")
-		)
-		(instances
-			(project "Otto-ESP32-XIAO-Lite"
-				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 36.83 0)
 		(unit 1)
@@ -7651,6 +7634,72 @@
 			(project "Otto-ESP32-XIAO-Lite"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df7c10f0-e185-4db7-9a64-6825ef1eb8f0")
+		(property "Reference" "#PWR011"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a520dc-4e00-4df3-bfc0-c4f90d77aee6")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 83.82 0)
+		(at 34.29 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7732,7 +7781,7 @@
 		(dnp no)
 		(uuid "e116539b-ef7f-4774-bc34-a3cc010caa52")
 		(property "Reference" "#PWR012"
-			(at 29.21 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.274 85.598 0)
+			(at 38.354 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 83.82 0)
+			(at 34.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 83.82 0)
+			(at 34.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 83.82 0)
+			(at 34.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,71 +7964,6 @@
 			(project "Otto-ESP32-XIAO-Lite"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 44.45 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8813b7f-57fc-4f6d-9256-c9f4beb5e977")
-		(property "Reference" "#PWR013"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 48.768 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a51c6522-c6d8-4e36-8999-e146df2fbc04")
-		)
-		(instances
-			(project "Otto-ESP32-XIAO-Lite"
-				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
