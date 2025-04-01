@@ -3195,6 +3195,12 @@
 		(uuid "3139df8b-9c74-4aaa-8bf5-7bcd110eb06a")
 	)
 	(junction
+		(at 48.26 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d1525c-e1b0-40bd-ab8e-331ad549db1c")
+	)
+	(junction
 		(at 153.67 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3257,6 +3263,26 @@
 			(type default)
 		)
 		(uuid "00f5e7e5-0b1c-45fb-b4f6-9f5513620762")
+	)
+	(wire
+		(pts
+			(xy 39.37 110.49) (xy 40.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077896ae-8618-4aa1-8dad-3aa652ba9d5a")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c2768e-5c88-44e9-a904-d3c4d43f9f22")
 	)
 	(wire
 		(pts
@@ -3508,6 +3534,16 @@
 		)
 		(uuid "81d7d9d3-81a0-4605-8aed-7240be4bbd99")
 	)
+	(wire
+		(pts
+			(xy 45.72 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830f54cc-85fb-40e3-b813-1027b43ee376")
+	)
 	(polyline
 		(pts
 			(xy 13.97 21.59) (xy 38.1 21.59)
@@ -3560,6 +3596,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 113.03) (xy 40.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d509c3d2-9d75-4f00-93e8-b4469470d126")
+	)
+	(wire
+		(pts
 			(xy 81.28 78.74) (xy 85.09 78.74)
 		)
 		(stroke
@@ -3567,6 +3613,16 @@
 			(type default)
 		)
 		(uuid "d9a41ee2-7984-4ce9-a285-110f25652809")
+	)
+	(wire
+		(pts
+			(xy 48.26 110.49) (xy 45.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd024169-6c25-4b73-8135-93bb0da0a038")
 	)
 	(polyline
 		(pts
@@ -3872,6 +3928,50 @@
 	)
 	(global_label "SDA"
 		(shape input)
+		(at 39.37 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9703e9e7-89aa-4ac5-9e01-009346bd20d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8167 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 39.37 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "998fc9b3-eba6-4d04-b704-c470c98d3a22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8772 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
 		(at 118.11 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4026,7 +4126,7 @@
 	)
 	(global_label "Buzzer"
 		(shape input)
-		(at 27.94 118.11 0)
+		(at 27.94 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4036,7 +4136,7 @@
 		)
 		(uuid "f43f6c2f-7144-4d59-ac2f-239e71507592")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2752 118.11 0)
+			(at 37.2752 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5042,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 25.4 120.65 0)
+		(at 25.4 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4951,7 +5051,7 @@
 		(dnp no)
 		(uuid "2c2f6919-5417-4834-93b2-de66d080c480")
 		(property "Reference" "BZ1"
-			(at 21.59 119.3799 0)
+			(at 21.59 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5060,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 21.59 121.9199 0)
+			(at 21.59 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +5069,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 26.035 118.11 90)
+			(at 26.035 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.035 118.11 90)
+			(at 26.035 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5087,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 25.4 120.65 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,6 +5300,72 @@
 			(project "Otto-ESP32-XIAO-REFEREE"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 48.26 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34750514-1bd7-4cbf-8306-de7321a40029")
+		(property "Reference" "#PWR036"
+			(at 48.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b13b44-b5f5-444a-ac44-55816acaabf8")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6306,6 +6472,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f1c82e-19ec-4af9-b5b3-360b122c2085")
+		(property "Reference" "R4"
+			(at 43.18 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 43.18 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 43.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acaa69f8-9bd0-485f-8f52-f13d8dbc8d6a")
+		)
+		(pin "1"
+			(uuid "3a17b1c3-f925-4cec-a18e-ce9bef32dc0c")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 129.54 90)
 		(unit 1)
@@ -6922,7 +7155,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 123.19 0)
+		(at 27.94 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6930,7 +7163,7 @@
 		(dnp no)
 		(uuid "a805cf9b-1b1d-4f0c-90c1-a072c3f4fcd2")
 		(property "Reference" "#PWR017"
-			(at 27.94 129.54 0)
+			(at 27.94 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.242 124.714 0)
+			(at 31.242 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 123.19 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 123.19 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 123.19 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,6 +8197,73 @@
 			(project "Otto-ESP32-XIAO-Lite"
 				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eae3ee6f-11e4-42f5-b752-5095cbe6510f")
+		(property "Reference" "R6"
+			(at 43.18 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 43.18 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdffe0bd-8335-44f1-8434-35f6e1dee3f8")
+		)
+		(pin "1"
+			(uuid "8f85eb13-32d3-4227-9a13-e00e91424338")
+		)
+		(instances
+			(project "Otto-ESP32-XIAO-REFEREE"
+				(path "/d2682c99-4285-4c0b-9e61-08b763b3ce0d"
+					(reference "R6")
 					(unit 1)
 				)
 			)
