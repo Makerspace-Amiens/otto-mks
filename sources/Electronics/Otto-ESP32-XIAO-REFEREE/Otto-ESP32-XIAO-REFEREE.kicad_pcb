@@ -1074,7 +1074,7 @@
 			(uuid "8c5d3fe2-06c4-409a-9e0e-b6c56dd39d4e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/BarrelJack_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1673,7 +1673,7 @@
 			(uuid "5c4b81fd-6c5f-40f8-882f-76e4210364d8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_A-405_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/D_A-405_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1916,7 +1916,7 @@
 			(uuid "80fd1771-e12e-4d15-99f2-a93ee31e9af9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2119,7 +2119,7 @@
 			(uuid "de2182fe-0bd1-4014-b564-247ee68ece19")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4736,7 +4736,7 @@
 			(uuid "fec5e4cf-91fc-47e8-8cf5-b64e7ac8ede9")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
+		(model "${KIPRJMOD}/packages3D/XIAO-nRF52840 v15.step"
 			(hide yes)
 			(offset
 				(xyz -1.778 -6.096 0.381)
@@ -4748,7 +4748,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
+		(model "${KIPRJMOD}/packages3D/Seeeduino XIAO SAMD21 v4.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4759,7 +4759,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
+		(model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v26.step"
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
@@ -4771,7 +4771,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
+		(model "${KIPRJMOD}/packages3D/Seeed Studio XIAO-ESP32-C3.step"
 			(hide yes)
 			(offset
 				(xyz -1.7018 -6.096 0)
@@ -4783,16 +4783,15 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
+		(model "${KIPRJMOD}/packages3D/Seeed Studio XIAO-ESP32-C3.step"
 			(offset
-				(xyz -1.778 -6.1722 0)
+				(xyz 6 -1.75 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -5552,7 +5551,7 @@
 			(uuid "2e5ad8ff-c658-4a1f-ab71-74c8a7942fd2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7373,7 +7372,7 @@
 			(uuid "cb366e38-b2cc-434e-88a0-02c194ef9911")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D6.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7578,7 +7577,7 @@
 			(uuid "0c7a1670-1e5f-4148-8a4a-cb11b29e8d90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7869,7 +7868,7 @@
 			(uuid "200485d9-dad3-421a-a6a9-1f18531468d2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/cherry mx.STEP"
+		(model "${KIPRJMOD}/packages3D/cherry mx.STEP"
 			(offset
 				(xyz -2.6 -5.1 5.5)
 			)
@@ -8097,7 +8096,7 @@
 			(uuid "44ea4ed1-0c10-48fd-af50-fe30daf41f04")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8454,7 +8453,7 @@
 			(uuid "9d98172c-4cf2-47aa-b412-2ad8545eac0c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8659,7 +8658,7 @@
 			(uuid "a93a7cd4-9ef8-434b-a4ef-d2893d864d31")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9223,7 +9222,7 @@
 			(uuid "dff7b90c-e0e5-4726-8f13-8783f0ca8dcb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/TFT Display 0.69_96x16.STEP"
+		(model "${KIPRJMOD}/packages3D/TFT Display 0.69_96x16.STEP"
 			(offset
 				(xyz -14.6 -3.8 9.5)
 			)
@@ -9517,7 +9516,7 @@
 			(uuid "1d21f89d-c97b-4136-8bf1-0438f1802901")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/HCSR04 Ultrasonic Sensor.STEP"
+		(model "${KIPRJMOD}/packages3D/HCSR04 Ultrasonic Sensor.STEP"
 			(offset
 				(xyz -4.1 -3.75 0)
 			)
@@ -9734,7 +9733,7 @@
 			(uuid "3f203a58-b557-498c-8449-27f53ca5cac6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10047,7 +10046,7 @@
 			(uuid "25062db9-7bbf-4708-aba0-a892189e26eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10360,7 +10359,7 @@
 			(uuid "002004a4-d8a7-428e-8116-395fd2343783")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10566,7 +10565,7 @@
 			(uuid "a53e77fa-1632-4ce1-8e32-732bd1c6faf0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11626,7 +11625,7 @@
 			(uuid "15850aea-ee9a-4b9e-b142-4e95fb0d1ab5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12213,7 +12212,7 @@
 			(uuid "549fc58e-be99-4401-84ab-3db4f2eaf99d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12603,7 +12602,7 @@
 			(uuid "a3f36756-4153-445a-a292-37c66d827017")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/cherry mx.STEP"
+		(model "${KIPRJMOD}/packages3D/cherry mx.STEP"
 			(offset
 				(xyz -2.6 -5.1 5.5)
 			)
@@ -13085,7 +13084,7 @@
 			(uuid "4e84e635-ff6e-43fe-aca0-04cb4347b334")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13519,7 +13518,7 @@
 			(uuid "69556623-7670-4028-9997-dd3e85fb5777")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/cherry mx.STEP"
+		(model "${KIPRJMOD}/packages3D/cherry mx.STEP"
 			(offset
 				(xyz -2.6 -5.1 5.5)
 			)
@@ -14042,7 +14041,7 @@
 			(uuid "3c60b8b5-00e2-4f3a-8199-9d4fdda5b0d3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14519,7 +14518,7 @@
 			(uuid "142ab5df-c9b9-4a68-b7d9-15e175d4af1a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
