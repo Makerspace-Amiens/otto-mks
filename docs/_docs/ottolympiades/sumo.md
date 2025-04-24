@@ -15,7 +15,7 @@ description: Poussez le robot adverse en dehors de l’arène dans un combat 100
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.4 03/03/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.4 24/04/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -44,12 +44,20 @@ content="
    - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force.
    - **L’arbitre lève la planche** pour lancer l’épreuve.
    - Les robots doivent démarrer **de manière autonome**.
-- **Fin du match** :
+- **Fin du match**
    - Chaque robot doit tenter de **pousser l’adversaire hors de l’arène**.
-   - Lorsqu’un robot sort, il **tombe de la plateforme**, signifiant sa défaite.
-   - Le robot restant sur l’arène est déclaré **vainqueur**.
-   - Si les deux robots tombent en même temps, un **rematch** peut être décidé par l’arbitre.
-   - **Durée maximale** : Un match ne peut excéder 1 minute. Si aucun robot n'est éjecté dans ce délai, l’arbitre tranchera en déclarant le vainqueur, un match nul ou en proposant un rematch."
+   - Un match peut se terminer de plusieurs manières :
+
+   | Mode de victoire     | Description                                                                 | Points attribués |
+   |----------------------|-----------------------------------------------------------------------------|------------------|
+   | **Forfait**          | L’équipe adverse ne se présente pas au match                                | 1 point          |
+   | **Immobilisation**   | Le robot adverse est bloqué et reste coincé contre la bordure pendant 10 s  | 2 points         |
+   | **Mort-subite**      | Le robot adverse tombe de l’arène                                           | 3 points         |
+
+
+   - **Durée maximale** : un match ne peut excéder **3 minute**. Si aucun robot n’est déclaré vainqueur à l’issue du temps imparti, l’arbitre décidera de l’issue : désignation d’un vainqueur, match nul ou rematch.
+
+"
 image="otto_sumo_wall.png"
 image_2="otto_sumo_fall.png"%}
 

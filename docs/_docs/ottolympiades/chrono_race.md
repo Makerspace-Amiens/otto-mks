@@ -16,7 +16,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.4 10/03/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.5 14/04/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -32,6 +32,7 @@ content="
 - Le robot ne doit **pas bouger** avant le retrait de la planche.
 - Si le robot s’arrête avant la ligne, l’essai est annulé.
 - Aucun obstacle ne sera placé sur la piste, mais les irrégularités du sol peuvent influencer la course.
+- Des **parois verticales** de 20cm de hauteur sont présentes sur les côtés de la piste
 - Chaque équipe dispose d'autant d'essai que souhaité (dans la limite de disponibilité des pistes), seul le **meilleur temps** sera retenu."
 image="otto_wake.png" %}
 
