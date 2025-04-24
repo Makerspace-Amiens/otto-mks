@@ -38,24 +38,32 @@ title = "Déroulement de l’épreuve"
 content="
 - **Placement initial** :
    - Les robots sont disposés **face à face** et éteints sur un **disque surélevé de 45 cm de diamètre**.
-   - Ils sont placés à **10 cm l’un de l’autre** derrière une **ligne de départ**.
+   - Ils sont placés à **10 cm l’un de l’autre** derrière une **ligne de départ**.  
 - **Début du match** :
    - Une **planche est placée** entre les deux robots pour bloquer leurs capteurs.
-   - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force.
+   - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force. Si le robot effectue correctement le rituel :
+      ➤ Un **demi-point bonus** est accordé.  
+
    - **L’arbitre lève la planche** pour lancer l’épreuve.
    - Les robots doivent démarrer **de manière autonome**.
 - **Fin du match**
    - Chaque robot doit tenter de **pousser l’adversaire hors de l’arène**.
+   - **Durée maximale** : un match ne peut excéder **3 minute**.
    - Un match peut se terminer de plusieurs manières :
 
-   | Mode de victoire     | Description                                                                 | Points attribués |
-   |----------------------|-----------------------------------------------------------------------------|------------------|
-   | **Forfait**          | L’équipe adverse ne se présente pas au match                                | 1 point          |
-   | **Immobilisation**   | Le robot adverse est bloqué et reste coincé contre la bordure pendant 10 s  | 2 points         |
-   | **Mort-subite**      | Le robot adverse tombe de l’arène                                           | 3 points         |
+   | Mode de victoire     | Description                                                                                            | Points attribués |
+   |----------------------|--------------------------------------------------------------------------------------------------------|------------------|
+   | **Inactivité**       | Le robot adverse ne démarre pas. Le robot effectue une action sans remplir les conditions de victoire. | 1 point          |
+   | **Immobilisation**   | Le robot adverse est bloqué et reste coincé contre la bordure pendant 5 secondes                       | 2 points         |
+   | **Mort-subite**      | Le robot adverse est éjecté de l’arène                                                                 | 3 points         |
+   | **Égalité**          | Aucun robot ne remplit les conditions de victoire. Les deux robots ont participé sans se départager.   | 1 point chacun   |
 
+- **Rôle de l'arbitre**
+   - Vérifier la conformité des robots avant chaque match.
+   - Lancer et chronométrer le match.
+   - Juger des conditions de victoire.
+   - Trancher en cas de litige ou situation imprévue.
 
-   - **Durée maximale** : un match ne peut excéder **3 minute**. Si aucun robot n’est déclaré vainqueur à l’issue du temps imparti, l’arbitre décidera de l’issue : désignation d’un vainqueur, match nul ou rematch.
 
 "
 image="otto_sumo_wall.png"
@@ -65,11 +73,12 @@ image_2="otto_sumo_fall.png"%}
 greyBackground = true
 title = "Finale et classement"
 content="
-Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre trois et cinq matchs : 
-- **2, 4 ou 8** des robots ayant gagné le plus de matchs seront sélectionnés.
-- Les **meilleurs robots** avancent aux tours suivants jusqu’à la finale.
-- En cas de match nul répété, l’arbitre peut proposer une **modification des règles** (zone réduite, timer...).  
-🏆 **Le champion sera le dernier robot encore debout !**"
+Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre **trois et cinq matchs** :
+
+- Les **robots marquent des points** pendant la phase de match.
+- À l’issue des matchs, **l’équipe ayant cumulé le plus de points** est déclarée gagnante.
+- En cas d’**égalité de points en première place**, une **finale décisive** est organisée entre les équipes concernées.
+"
 image="victory.png" %}
 
 {% include step-tuto.html
