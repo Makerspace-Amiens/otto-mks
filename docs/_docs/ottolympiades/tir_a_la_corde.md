@@ -31,8 +31,8 @@ Cette épreuve se joue en équipes de 3 robots qui seront à composer avant les 
 greyBackground = true
 title = "Conditions et contraintes"
 content="
-- Les robots d'une équipe sont tout trois reliés par des **cordes** de 7 cm attachée à un **élastique** placé autour du corps de chaque robot.
-- Au bout de cette corde, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
+- Les robots d'une équipe sont tout trois reliés par des **éléments** de 8 cm attachée à une **boucle en velcro** placé autour du corps de chaque robot.
+- De l'autre côté, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
 - L'épreuve se joue en mode télécommandé.
   "
   image="otto_pull_linked.png" %}
@@ -65,7 +65,9 @@ Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de pa
 {% include step-tuto.html
 greyBackground = true
 title = "Éléments de jeu"
-content="**A venir...**" %}
+content="" %}
+
+{% include 3d-model.html model="OTTO_PULL_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves
 

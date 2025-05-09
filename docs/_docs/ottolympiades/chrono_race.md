@@ -70,8 +70,10 @@ image_2="victory.png" %}
 {% include step-tuto.html
 greyBackground = true
 title = "Élements de jeu"
-content="**A venir...**"
+content=""
  %}
+
+{% include 3d-model.html model="OTTO_RACE_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves
 
