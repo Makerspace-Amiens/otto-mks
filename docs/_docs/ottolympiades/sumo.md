@@ -86,10 +86,7 @@ Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de pa
 "
 image="victory.png" %}
 
-{% include step-tuto.html
-greyBackground = true
-title = "Éléments de jeu"
-content="**A venir...**" %}
+## Éléments de jeu 
 
 ---
 

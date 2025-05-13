@@ -62,11 +62,7 @@ Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de pa
 - Les **meilleurs équipe de 3 robots** avancent aux tours suivants jusqu’à la finale.
   🏆 **Les vainqueurs sont les membres de l'équipe ayant réussi à faire glisser le marqueur rouge sur sa moitié du terrain lors de la finale !** " image="victory.png" %}
 
-{% include step-tuto.html
-greyBackground = true
-title = "Éléments de jeu"
-content="" %}
-
+## Éléments de jeu 
 {% include 3d-model.html model="OTTO_PULL_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves

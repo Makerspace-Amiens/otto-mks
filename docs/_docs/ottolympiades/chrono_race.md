@@ -67,11 +67,7 @@ En fonction du **nombre de participants**, un nombre variable de robots sera qua
 image = "otto_race_winner.png"
 image_2="victory.png" %}
 
-{% include step-tuto.html
-greyBackground = true
-title = "Élements de jeu"
-content=""
- %}
+## Éléments de jeu 
 
 {% include 3d-model.html model="OTTO_RACE_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
