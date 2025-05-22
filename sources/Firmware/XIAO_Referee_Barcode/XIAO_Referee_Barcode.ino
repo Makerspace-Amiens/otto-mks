@@ -1,6 +1,3 @@
-// ==== Ajout de la gestion du menu au démarrage et du mode SUMO ====
-
-#include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 #include <U8g2lib.h>
 
@@ -18,7 +15,7 @@
 Adafruit_NeoPixel pixels(NUMPIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
 // ==== OLED ====
-U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
+U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R2, U8X8_PIN_NONE);
 
 // ==== ÉTATS ====
 enum State {IDLE, WAIT_START, RUNNING, PAUSED, FINISHED};
@@ -29,7 +26,7 @@ const char* stateLabels[] = {"IDLE", "WAIT", "RUN", "PAUSE", "FINISH"};
 unsigned long startTime = 0;
 unsigned long pauseTime = 0;
 unsigned long elapsedTime = 0;
-unsigned long lastTime = 0;  // Stocke le temps précédent
+unsigned long lastTime = 0;
 
 // ==== TOR ====
 bool torStartPrev = false;
@@ -41,7 +38,7 @@ Mode currentMode = MODE_COURSE;
 
 // ==== MENU ====
 bool inMenu = true;
-uint8_t menuIndex = 0; // 0 = COURSE, 1 = SUMO
+uint8_t menuIndex = 0;
 const char* menuOptions[] = {"COURSE", "SUMO"};
 
 // ==== SUMO ====
@@ -69,13 +66,10 @@ bool isPressed(uint8_t pin) {
 void drawScreen(unsigned long t, const char* stateLabel, unsigned long lastT) {
   char timeStr[16];
   char lastTimeStr[16];
-
   float seconds = t / 1000.0;
   float lastSeconds = lastT / 1000.0;
-
   sprintf(timeStr, "%6.3f s", seconds);
   sprintf(lastTimeStr, "%6.3f s", lastSeconds);
-
   u8g2.clearBuffer();
   u8g2.setFont(u8g2_font_logisoso16_tr);
   u8g2.drawStr(0, 26, timeStr);
@@ -102,21 +96,39 @@ void drawMenu(uint8_t selected) {
   u8g2.sendBuffer();
 }
 
+void drawCode39(unsigned long timeMs) {
+  char buffer[16];
+  float seconds = timeMs / 1000.0;
+  sprintf(buffer, "*%.3f*", seconds); // Code39 doit commencer et finir par '*'
+
+  u8g2.clearBuffer();
+  u8g2.setFont(u8g2_font_6x12_tr);
+  u8g2.setDrawColor(1);
+  u8g2.drawStr(0, 10, "Result:");
+
+  u8g2.setFont(u8g2_font_c39_tr);
+  u8g2.drawStr(0, 26, buffer); // Code-barres
+
+  u8g2.setFont(u8g2_font_5x7_tr);
+  char textLine[16];
+  sprintf(textLine, "%.3f s", seconds);
+  u8g2.drawStr(70, 10, textLine);
+
+  u8g2.sendBuffer();
+}
+
 // ==== SETUP ====
 void setup() {
   Serial.begin(115200);
-
   pinMode(BUZZER_PIN, OUTPUT);
   pinMode(KEY_1, INPUT_PULLUP);
   pinMode(KEY_2, INPUT_PULLUP);
   pinMode(KEY_3, INPUT_PULLUP);
   pinMode(TOR_START, INPUT);
   pinMode(TOR_END, INPUT);
-
   pixels.begin();
   pixels.clear();
   pixels.show();
-
   u8g2.begin();
   drawMenu(menuIndex);
   setLED(pixels.Color(80, 0, 80));
@@ -126,7 +138,6 @@ void setup() {
 void loop() {
   unsigned long now = millis();
 
-  // Menu au démarrage uniquement
   if (inMenu) {
     if (isPressed(KEY_3)) {
       menuIndex = (menuIndex + 1) % 2;
@@ -147,7 +158,6 @@ void loop() {
     return;
   }
 
-  // Capteurs TOR
   bool torStart = digitalRead(TOR_START);
   bool torEnd = digitalRead(TOR_END);
   bool frontStart = torStart && !torStartPrev;
@@ -168,13 +178,12 @@ void loop() {
         setLED(pixels.Color(255, 0, 0));
         chronoState = FINISHED;
         sumoRunning = false;
-        drawScreen(60000, "FINISH", 60000);
+        drawCode39(60000);
       } else {
         drawScreen(remaining, "SUMO", 60000);
       }
     }
   } else {
-    // === MODE COURSE ===
     switch (chronoState) {
       case IDLE:
         if (isPressed(KEY_2)) {
@@ -210,6 +219,7 @@ void loop() {
           beep();
           setLED(pixels.Color(255, 0, 0));
           Serial.println("Chrono arrete !");
+          drawCode39(elapsedTime);
         } else {
           elapsedTime = now - startTime;
         }
@@ -230,7 +240,7 @@ void loop() {
         if (isPressed(KEY_1)) {
           chronoState = IDLE;
           elapsedTime = 0;
-          drawScreen(0, stateLabels[chronoState], lastTime);
+          drawCode39(lastTime);
           setLED(pixels.Color(80, 0, 80));
           Serial.println("Reset !");
           delay(300);
@@ -239,17 +249,12 @@ void loop() {
     }
   }
 
-  // Reset global
-  if (isPressed(KEY_1) && chronoState != IDLE) {
-    chronoState = IDLE;
-    elapsedTime = 0;
-    drawScreen(0, stateLabels[chronoState], lastTime);
-    setLED(pixels.Color(80, 0, 80));
-    Serial.println("Reset force !");
+  if (isPressed(KEY_3) && chronoState == FINISHED) {
+    drawCode39(lastTime);
     delay(300);
   }
 
-  if (currentMode == MODE_COURSE && (chronoState == RUNNING || chronoState == PAUSED || chronoState == FINISHED)) {
+  if (currentMode == MODE_COURSE && (chronoState == RUNNING || chronoState == PAUSED)) {
     drawScreen(elapsedTime, stateLabels[chronoState], lastTime);
   }
 
