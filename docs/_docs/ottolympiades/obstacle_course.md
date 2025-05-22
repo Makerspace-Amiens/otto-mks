@@ -63,10 +63,7 @@ image="victory.png" %}
 
 ## Éléments de jeu  
 
-{% include step-tuto.html
-greyBackground = true
-title = "Éléments de jeu"
-content="**A venir...**" %}
+{% include 3d-model.html model="OTTO_OBSTACLE_SCENE.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves  
 

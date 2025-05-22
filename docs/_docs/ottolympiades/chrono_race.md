@@ -16,7 +16,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.5 14/04/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.5 16/05/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -58,20 +58,15 @@ image_2="otto_race_solo.png"%}
 greyBackground = true
 title = "Finale et classement"
 content="
-En fonction du **nombre de participants**, un nombre variable de robots sera qualifié pour la phase finale :
-- **2, 4, 8 ou plus** des meilleurs robots seront sélectionnés.
-- Les phases finales se dérouleront en **duels sur des pistes parallèles**.
-- Le premier à franchir la ligne d’arrivée remporte son duel et avance au tour suivant.
+⏱️ À l’issue des passages, **les trois meilleurs temps** détermineront le podium.
 
-🏆 **Le vainqueur sera l’équipe qui remportera la finale en un temps record !**"
+**🏆 Le vainqueur sera l’équipe ayant réalisé le temps le plus rapide !**"
 image = "otto_race_winner.png"
 image_2="victory.png" %}
 
-{% include step-tuto.html
-greyBackground = true
-title = "Élements de jeu"
-content="**A venir...**"
- %}
+## Éléments de jeu 
+
+{% include 3d-model.html model="OTTO_RACE_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves
 

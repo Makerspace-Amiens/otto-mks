@@ -15,7 +15,7 @@ description: Poussez le robot adverse en dehors de l’arène dans un combat 100
 author: Adrien BRACQ & Rémi LACOMBE
 ---
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.4 24/04/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.5 30/04/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -40,9 +40,10 @@ content="
    - Les robots sont disposés **face à face** et éteints sur un **disque surélevé de 45 cm de diamètre**.
    - Ils sont placés à **10 cm l’un de l’autre** derrière une **ligne de départ**.  
 - **Début du match** :
-   - Une **planche est placée** entre les deux robots pour bloquer leurs capteurs.
-   - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force. Si le robot effectue correctement le rituel :
+   - Les robots sont allumés et doivent réaliser un **shiko**, rituel de début de match sumo qui consiste à lever chaque pied en l'air et à frapper le sol avec force. Si le robot effectue correctement le rituel :  
       ➤ Un **demi-point bonus** est accordé.  
+   - Une **planche est placée** entre les deux robots pour bloquer leurs capteurs.
+
 
    - **L’arbitre lève la planche** pour lancer l’épreuve.
    - Les robots doivent démarrer **de manière autonome**.
@@ -76,15 +77,16 @@ content="
 Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre **trois et cinq matchs** :
 
 - Les **robots marquent des points** pendant la phase de match.
-- À l’issue des matchs, **l’équipe ayant cumulé le plus de points** est déclarée gagnante.
-- En cas d’**égalité de points en première place**, une **finale décisive** est organisée entre les équipes concernées.
+- À l’issue des matchs, les **quatre équipes ayant cumulé le plus de points** accèdent aux **phases finales**.
+- Les demi-finales opposent :
+  - la **1ʳᵉ équipe** contre la **4ᵉ**
+  - la **2ᵉ équipe** contre la **3ᵉ**
+- Les **gagnants des demi-finales** s’affrontent ensuite en **finale** pour déterminer le vainqueur du tournoi.
+- Si le temps le permet, une **petite finale** sera également organisée entre les équipes perdantes des demi-finales, pour déterminer la **3ᵉ place**.
 "
 image="victory.png" %}
 
-{% include step-tuto.html
-greyBackground = true
-title = "Éléments de jeu"
-content="**A venir...**" %}
+## Éléments de jeu 
 
 ---
 

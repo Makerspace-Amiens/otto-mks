@@ -17,7 +17,7 @@ author: Adrien BRACQ & Rémi LACOMBE
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.3 25/02/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 16/05/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## Présentation
 
@@ -31,8 +31,8 @@ Cette épreuve se joue en équipes de 3 robots qui seront à composer avant les 
 greyBackground = true
 title = "Conditions et contraintes"
 content="
-- Les robots d'une équipe sont tout trois reliés par des **cordes** de 7 cm attachée à un **élastique** placé autour du corps de chaque robot.
-- Au bout de cette corde, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
+- Les robots d'une équipe sont tout trois reliés par des **éléments** de 8 cm attachée à une **boucle en velcro** placé autour du corps de chaque robot.
+- De l'autre côté, se trouvent trois autres **anneaux élastiques** destinés aux robots adverses.
 - L'épreuve se joue en mode télécommandé.
   "
   image="otto_pull_linked.png" %}
@@ -57,15 +57,12 @@ content="
 greyBackground = true
 title = "Finale et classement"
 content="
-Chaque équipe se verra attribuer, de façon aléatoire et selon le nombre de participants, entre trois et cinq matchs : 
-- **2, 4 ou 8** des équipes ayant gagné le plus de matchs seront sélectionnés.
-- Les **meilleurs équipe de 3 robots** avancent aux tours suivants jusqu’à la finale.
-  🏆 **Les vainqueurs sont les membres de l'équipe ayant réussi à faire glisser le marqueur rouge sur sa moitié du terrain lors de la finale !** " image="victory.png" %}
+Cette épreuve est avant tout **amicale** : le but est d’expérimenter des stratégies collectives entre robots !
 
-{% include step-tuto.html
-greyBackground = true
-title = "Éléments de jeu"
-content="**A venir...**" %}
+Les participants peuvent s’affronter **autant de fois qu’ils le souhaitent**, en formant des **équipes de trois robots selon leurs envies.**" image="victory.png" %}
+
+## Éléments de jeu 
+{% include 3d-model.html model="OTTO_PULL_TRACK.glb" poster="poster.webp" fullscreen_modal=true %}
 
 ## Autres épreuves
 
