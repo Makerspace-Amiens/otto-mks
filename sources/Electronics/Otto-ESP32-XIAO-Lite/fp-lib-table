@@ -3,4 +3,5 @@
   (lib (name "xiao ESP32C3_PCB")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Seeeduino xiao ESP32C3 KiCAD Library/xiao ESP32C3_PCB.pretty")(options "")(descr ""))
   (lib (name "100SP1T1B4M2QE")(type "KiCad")(uri "${KIPRJMOD}/Libraries/100SP1T1B4M2QE")(options "")(descr ""))
   (lib (name "TMC-Step-Stick")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TMC2208_SILENTSTEPSTICK")(options "")(descr ""))
+  (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "C:/Users/Adrien Bracq/Documents/GitHub/otto-mks/sources/Electronics/Otto-ESP32-XIAO-REFEREE/Libraries/Seeed Studio XIAO Series Library")(options "")(descr ""))
 )
