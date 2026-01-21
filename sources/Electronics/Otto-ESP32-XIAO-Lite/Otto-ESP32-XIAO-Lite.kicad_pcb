@@ -11952,7 +11952,7 @@
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
 		(property "Reference" "BZ1"
-			(at 4.064 0.254 180)
+			(at 4.064 0.254 0)
 			(layer "B.SilkS")
 			(uuid "19048347-1c58-4df4-aeaa-60e9bbdd7092")
 			(effects
